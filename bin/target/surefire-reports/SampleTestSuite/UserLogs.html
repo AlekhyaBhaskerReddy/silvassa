@@ -1,0 +1,300 @@
+<html>
+<head>
+<title>TestNG:  UserLogs</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UserLogs</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 01 15:16:25 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>172 seconds (172736 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.UserLogs.downlaodManagerPDFButton()'><b>downlaodManagerPDFButton</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downlaodMonitorPDFButton()'><b>downlaodMonitorPDFButton</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.tableNextPage()'><b>tableNextPage</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectHelpDeskUserRole()'><b>selectHelpDeskUserRole</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downlaodAttenderPDFButton()'><b>downlaodAttenderPDFButton</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectOperatorUser()'><b>selectOperatorUser</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downloadMonitorCSV()'><b>downloadMonitorCSV</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectSupportUser()'><b>selectSupportUser</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.revenueDashboard()'><b>revenueDashboard</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.login()'><b>login</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downloadAdminCSV()'><b>downloadAdminCSV</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectAccountUserRole()'><b>selectAccountUserRole</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.activityDatesEnabled()'><b>activityDatesEnabled</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectManagerUser()'><b>selectManagerUser</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downlaodServicePDFButton()'><b>downlaodServicePDFButton</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downloadHelpDeskCSV()'><b>downloadHelpDeskCSV</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectAttenderUser()'><b>selectAttenderUser</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectAttenderUserRole()'><b>selectAttenderUserRole</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downloadSupportCSV()'><b>downloadSupportCSV</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downloadAccountCSV()'><b>downloadAccountCSV</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectServiceUserRole()'><b>selectServiceUserRole</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downlaodAccountPDFButton()'><b>downlaodAccountPDFButton</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downloadOperatorCSV()'><b>downloadOperatorCSV</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downloadAttenderCSV()'><b>downloadAttenderCSV</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectOperatorUserRole()'><b>selectOperatorUserRole</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downlaodAdminPDFButton()'><b>downlaodAdminPDFButton</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downloadServiceCSV()'><b>downloadServiceCSV</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectUserList()'><b>selectUserList</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectHelpDeskUser()'><b>selectHelpDeskUser</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.logout()'><b>logout</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectMonitorUserRole()'><b>selectMonitorUserRole</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectAdminUser()'><b>selectAdminUser</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectManagerUserRole()'><b>selectManagerUserRole</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectAdminUserRole()'><b>selectAdminUserRole</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectMonitorUser()'><b>selectMonitorUser</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectSupportUserRole()'><b>selectSupportUserRole</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.userLogsActivityPage()'><b>userLogsActivityPage</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downlaodSupportPDFButton()'><b>downlaodSupportPDFButton</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downloadManagerCSV()'><b>downloadManagerCSV</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downlaodOperatorPDFButton()'><b>downlaodOperatorPDFButton</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectServiceUser()'><b>selectServiceUser</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectAccountUser()'><b>selectAccountUser</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.selectUserRoleList()'><b>selectUserRoleList</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+<tr>
+<td title='com.selenium.UserLogs.downlaodAHelpDeskPDFButton()'><b>downlaodAHelpDeskPDFButton</b><br>Test class: com.selenium.UserLogs</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserLogs@359df09a</td></tr>
+</table><p>
+</body>
+</html>

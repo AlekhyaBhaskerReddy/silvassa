@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.ApkImages
+-------------------------------------------------------------------------------
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 84.182 s - in com.selenium.ApkImages

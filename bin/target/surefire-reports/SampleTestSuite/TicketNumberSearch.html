@@ -1,0 +1,190 @@
+<html>
+<head>
+<title>TestNG:  TicketNumberSearch</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TicketNumberSearch</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 01 14:23:26 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>52 seconds (52692 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.ticketNumberSearchPageAgain()'><b>ticketNumberSearchPageAgain</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.ticketNumberSubmit()'><b>ticketNumberSubmit</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.validateTicketVehicleNumber()'><b>validateTicketVehicleNumber</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.validateTicketEndDate()'><b>validateTicketEndDate</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.selectTicketNumberSearchCountAgain()'><b>selectTicketNumberSearchCountAgain</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.ticketNumberTransactionsTable()'><b>ticketNumberTransactionsTable</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.validateTicketTransactionType()'><b>validateTicketTransactionType</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.validateTicketStartDate()'><b>validateTicketStartDate</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.revenueDashboardOpen()'><b>revenueDashboardOpen</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.clickReportsAnalyticsPage()'><b>clickReportsAnalyticsPage</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.validateTicketAmount()'><b>validateTicketAmount</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.ticketNumberEnterInvalid()'><b>ticketNumberEnterInvalid</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.validateTicketDateTime()'><b>validateTicketDateTime</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.login()'><b>login</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.logout()'><b>logout</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.ticketNumberEnterValid()'><b>ticketNumberEnterValid</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.validateTicketTransactionId()'><b>validateTicketTransactionId</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.ticketNumberTableValid()'><b>ticketNumberTableValid</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.validateTicketStatus()'><b>validateTicketStatus</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.selectTicketNumberSearchCount()'><b>selectTicketNumberSearchCount</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.ticketNumberSubmitAgain()'><b>ticketNumberSubmitAgain</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+<tr>
+<td title='com.selenium.TicketNumberSearch.ticketNumberSearchPage()'><b>ticketNumberSearchPage</b><br>Test class: com.selenium.TicketNumberSearch</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.TicketNumberSearch@c730b35</td></tr>
+</table><p>
+</body>
+</html>

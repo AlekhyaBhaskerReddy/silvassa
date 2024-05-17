@@ -1,0 +1,330 @@
+<html>
+<head>
+<title>TestNG:  AlarmsNotifications</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AlarmsNotifications</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 04 13:24:55 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>113 seconds (113152 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.unAssignSweetAlertOKButton()'><b>unAssignSweetAlertOKButton</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.alertDescription()'><b>alertDescription</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.createManualTask()'><b>createManualTask</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.manualTaskCsv()'><b>manualTaskCsv</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.selectAlertType()'><b>selectAlertType</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.downloadOTCSVFiles()'><b>downloadOTCSVFiles</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.revenueDashboardOpen()'><b>revenueDashboardOpen</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.taskAlertStatus()'><b>taskAlertStatus</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickTransactionAlert()'><b>clickTransactionAlert</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.completedStatusSweetAlert()'><b>completedStatusSweetAlert</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.selectManualServiceUser()'><b>selectManualServiceUser</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.viewTaskCsv()'><b>viewTaskCsv</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.posCsv()'><b>posCsv</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.viewTaskPdf()'><b>viewTaskPdf</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.login()'><b>login</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.alarmsNotificationsPage()'><b>alarmsNotificationsPage</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.posPdf()'><b>posPdf</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.selectOTTwoWheeler()'><b>selectOTTwoWheeler</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.selectServiceUser()'><b>selectServiceUser</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickCompleteStatusButton()'><b>clickCompleteStatusButton</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickManualAlert()'><b>clickManualAlert</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>7</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.unAssignAlertStatus()'><b>unAssignAlertStatus</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.unAssignAlert()'><b>unAssignAlert</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.selectSiteOverTimeVehicle()'><b>selectSiteOverTimeVehicle</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.downloadOTPDFFiles()'><b>downloadOTPDFFiles</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.createMsgSelectSite()'><b>createMsgSelectSite</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.selectOTFourWheeler()'><b>selectOTFourWheeler</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.manualTaskAlertStatus()'><b>manualTaskAlertStatus</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickSweetAlertOKButton()'><b>clickSweetAlertOKButton</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.posAlertsDatesEnabled()'><b>posAlertsDatesEnabled</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickDeviceAlert()'><b>clickDeviceAlert</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.manualTaskSubmit()'><b>manualTaskSubmit</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.taskPopUPClose()'><b>taskPopUPClose</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.trasnactionCsv()'><b>trasnactionCsv</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.taskSubmitBtn()'><b>taskSubmitBtn</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickCompleteSweetAlertOKButton()'><b>clickCompleteSweetAlertOKButton</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.validateActionStatus()'><b>validateActionStatus</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.logAlertDetails()'><b>logAlertDetails</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.deviceDetailsPopUPClose()'><b>deviceDetailsPopUPClose</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickPOSAlert()'><b>clickPOSAlert</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.editTaskDeviceAlerts()'><b>editTaskDeviceAlerts</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.deviceAlertsNextPage()'><b>deviceAlertsNextPage</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.transactionPdf()'><b>transactionPdf</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickTaskViewButton()'><b>clickTaskViewButton</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.deviceAlertsPdf()'><b>deviceAlertsPdf</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickManualAlertOKButton()'><b>clickManualAlertOKButton</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.manualTaskPdf()'><b>manualTaskPdf</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.devcieAlertsCsv()'><b>devcieAlertsCsv</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.logout()'><b>logout</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+<tr>
+<td title='com.selenium.AlarmsNotifications.clickOverTime()'><b>clickOverTime</b><br>Test class: com.selenium.AlarmsNotifications</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.AlarmsNotifications@2d710f1a</td></tr>
+</table><p>
+</body>
+</html>

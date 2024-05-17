@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.UserZoneAssign
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 80.117 s - in com.selenium.UserZoneAssign

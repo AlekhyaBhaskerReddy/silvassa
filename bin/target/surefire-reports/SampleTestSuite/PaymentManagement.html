@@ -1,0 +1,500 @@
+<html>
+<head>
+<title>TestNG:  PaymentManagement</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PaymentManagement</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>84/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 01 15:06:27 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>205 seconds (205385 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectPaymentTypeExit()'><b>selectPaymentTypeExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.manageViewBtn()'><b>manageViewBtn</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectStartDatePass()'><b>selectStartDatePass</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectManageStartDate()'><b>selectManageStartDate</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.discountAmount()'><b>discountAmount</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.enterEmail()'><b>enterEmail</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectIOSdeviceTypeAction()'><b>selectIOSdeviceTypeAction</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectEndDateExit()'><b>selectEndDateExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.extractPopupTextReserve()'><b>extractPopupTextReserve</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.performSearch()'><b>performSearch</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectTransactionExit()'><b>selectTransactionExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectPassType()'><b>selectPassType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.addPaymentBtnPass()'><b>addPaymentBtnPass</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectReserveVehicleType()'><b>selectReserveVehicleType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.discountAmountExit()'><b>discountAmountExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectPaymentTypeReserve()'><b>selectPaymentTypeReserve</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.enterVehicleNumberExit()'><b>enterVehicleNumberExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectCreatedPageSite()'><b>selectCreatedPageSite</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectExitType()'><b>selectExitType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.enterPassEmail()'><b>enterPassEmail</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectPaymentTypePass()'><b>selectPaymentTypePass</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectStartDate()'><b>selectStartDate</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.performPaymentActions()'><b>performPaymentActions</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.tableNextPage()'><b>tableNextPage</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectEntryType()'><b>selectEntryType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectMPOSdeviceType()'><b>selectMPOSdeviceType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.enterEmailExit()'><b>enterEmailExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectReserveTransType()'><b>selectReserveTransType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.paymentMgmtPage()'><b>paymentMgmtPage</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.getDataMPOS()'><b>getDataMPOS</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectEndDatePass()'><b>selectEndDatePass</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectStatusType()'><b>selectStatusType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.getExitTransDetails()'><b>getExitTransDetails</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.addPaymentBtnReserve()'><b>addPaymentBtnReserve</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.discountAmountPass()'><b>discountAmountPass</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.statusOKPass()'><b>statusOKPass</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.login()'><b>login</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.verifyAutoFillFields()'><b>verifyAutoFillFields</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.select()'><b>select</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectPassTrans()'><b>selectPassTrans</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectTransactionEntry()'><b>selectTransactionEntry</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>10</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.deleteRecord()'><b>deleteRecord</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.enterReserveEmail()'><b>enterReserveEmail</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.paymentPopUpClose()'><b>paymentPopUpClose</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.discountAmountReserve()'><b>discountAmountReserve</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.extractPopupTextExit()'><b>extractPopupTextExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.statusOKExit()'><b>statusOKExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectStartDateReserve()'><b>selectStartDateReserve</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectEndDate()'><b>selectEndDate</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.revenueDashboard()'><b>revenueDashboard</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.getPassTransDetails()'><b>getPassTransDetails</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.addPaymentBtn()'><b>addPaymentBtn</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectStatusTypeReserve()'><b>selectStatusTypeReserve</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.performSearchValidate()'><b>performSearchValidate</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectVehicleTypeExit()'><b>selectVehicleTypeExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.extractPopupText()'><b>extractPopupText</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectOptionFromDropdown()'><b>selectOptionFromDropdown</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.getEntryTransDetails()'><b>getEntryTransDetails</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.redirectManagePage()'><b>redirectManagePage</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectIOSdeviceType()'><b>selectIOSdeviceType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.statusOK()'><b>statusOK</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectReserveType()'><b>selectReserveType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectAndroiddeviceType()'><b>selectAndroiddeviceType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectStatusTypeExit()'><b>selectStatusTypeExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.statusOKReserve()'><b>statusOKReserve</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectVehicleType()'><b>selectVehicleType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.addPaymentBtnExit()'><b>addPaymentBtnExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.manageDatesEnabled()'><b>manageDatesEnabled</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectStartDateExit()'><b>selectStartDateExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectReserveTrans()'><b>selectReserveTrans</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectSite()'><b>selectSite</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectPassTransType()'><b>selectPassTransType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectPaymentType()'><b>selectPaymentType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.extractPopupTextPass()'><b>extractPopupTextPass</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectEndDateReserve()'><b>selectEndDateReserve</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.getReserveTransDetails()'><b>getReserveTransDetails</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectPassVehicleType()'><b>selectPassVehicleType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.enterVehicleNumber()'><b>enterVehicleNumber</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectTransactionTypeExit()'><b>selectTransactionTypeExit</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.enterReserveVehicleNumber()'><b>enterReserveVehicleNumber</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.enterPassVehicleNumber()'><b>enterPassVehicleNumber</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectMobileMposdeviceType()'><b>selectMobileMposdeviceType</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectStatusTypePass()'><b>selectStatusTypePass</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+<tr>
+<td title='com.selenium.PaymentManagement.selectManageEndDate()'><b>selectManageEndDate</b><br>Test class: com.selenium.PaymentManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PaymentManagement@740cae06</td></tr>
+</table><p>
+</body>
+</html>

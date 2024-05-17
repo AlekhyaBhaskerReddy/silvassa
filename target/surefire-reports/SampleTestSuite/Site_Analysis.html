@@ -1,0 +1,270 @@
+<html>
+<head>
+<title>TestNG:  Site_Analysis</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Site_Analysis</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 04 13:07:43 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>138 seconds (138489 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.Site_Analysis.transFrequency_Csv()'><b>transFrequency_Csv</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.occupancyMinutes_SelectCount_25()'><b>occupancyMinutes_SelectCount_25</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.occpancyMinutes_PoPup_Close()'><b>occpancyMinutes_PoPup_Close</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.select_AvgDuration_TwoWheeler()'><b>select_AvgDuration_TwoWheeler</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.occupancyMinutes_Dates()'><b>occupancyMinutes_Dates</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.logout()'><b>logout</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_ViewDetails()'><b>avgDuration_ViewDetails</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_4WPdf()'><b>avgDuration_4WPdf</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.siteAnalysis_selectSite()'><b>siteAnalysis_selectSite</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.transFrequency_ViewDetails()'><b>transFrequency_ViewDetails</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.redirectSiteAnalysis()'><b>redirectSiteAnalysis</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.select_AvgDuration_FourWheeler()'><b>select_AvgDuration_FourWheeler</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_4WCsv()'><b>avgDuration_4WCsv</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.revenueDashboardOpen()'><b>revenueDashboardOpen</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_4WSearch()'><b>avgDuration_4WSearch</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_2WSelectCount_25()'><b>avgDuration_2WSelectCount_25</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.transFrequency_SelectCount_25()'><b>transFrequency_SelectCount_25</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_2WPoPup_Close()'><b>avgDuration_2WPoPup_Close</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.transFrequency_Search()'><b>transFrequency_Search</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.occupancyMinutes_Search()'><b>occupancyMinutes_Search</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_2WCsv()'><b>avgDuration_2WCsv</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_4WSelectCount_25()'><b>avgDuration_4WSelectCount_25</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.getSite_AnalysisTab()'><b>getSite_AnalysisTab</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.transFrequency_Pdf()'><b>transFrequency_Pdf</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_2WPdf()'><b>avgDuration_2WPdf</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.transaction_FrequencyTab()'><b>transaction_FrequencyTab</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.occupancyMinutes_ViewDetails()'><b>occupancyMinutes_ViewDetails</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.transFrequency_Dates()'><b>transFrequency_Dates</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.occupancyMinutes_Csv()'><b>occupancyMinutes_Csv</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_ViewDetails_4W()'><b>avgDuration_ViewDetails_4W</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.occupancyMinutes_Tab()'><b>occupancyMinutes_Tab</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_4WPoPup_Close()'><b>avgDuration_4WPoPup_Close</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_2WDates()'><b>avgDuration_2WDates</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.occupancyMinutes_Pdf()'><b>occupancyMinutes_Pdf</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.login()'><b>login</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.reportsAnalyticsPage()'><b>reportsAnalyticsPage</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.avgDuration_2WSearch()'><b>avgDuration_2WSearch</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+<tr>
+<td title='com.selenium.Site_Analysis.transFrequency_PoPup_Close()'><b>transFrequency_PoPup_Close</b><br>Test class: com.selenium.Site_Analysis</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Site_Analysis@3315d2d7</td></tr>
+</table><p>
+</body>
+</html>

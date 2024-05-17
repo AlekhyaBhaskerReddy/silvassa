@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.MobileReports
+-------------------------------------------------------------------------------
+Tests run: 126, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 321.846 s - in com.selenium.MobileReports

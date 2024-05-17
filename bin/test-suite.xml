@@ -1,0 +1,195 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleTestSuite">
+    <test name="Dashboard">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Dashboard" />
+        </classes>
+    </test>
+    <test name="ReservationReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.ReservationReports" />
+        </classes>
+    </test>
+    <!-- <test name="POSReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.POSReports" />
+        </classes>
+    </test> -->
+    <test name="PosHourlyReport">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.PosHourlyReport" />
+        </classes>
+    </test>
+    <test name="MobileReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.MobileReports" />
+        </classes>
+    </test>
+    <test name="MobileNumberSearch">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.MobileNumberSearch" />
+        </classes>
+    </test>
+    <test name="VehicleNumberSearch">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.VehicleNumberSearch" />
+        </classes>
+    </test>
+    <test name="TicketNumberSearch">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.TicketNumberSearch" />
+        </classes>
+    </test>
+    <test name="SiteReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.SiteReports" />
+        </classes>
+    </test>
+    <test name="Site_Analysis">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Site_Analysis" />
+        </classes>
+    </test>
+    <test name="Slot_Analysis">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Slot_Analysis" />
+        </classes>
+    </test>
+    <test name="Audit_Reservations">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Audit_Reservations" />
+        </classes>
+    </test>
+    <test name="AudiTrail_PosDevice">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.AudiTrail_PosDevice" />
+        </classes>
+    </test>
+    <test name="VehicleBlockList">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.VehicleBlockList" />
+        </classes>
+    </test>
+    <test name="CouponReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.CouponReports" />
+        </classes>
+    </test>
+    <test name="UnAccountedReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.UnAccountedReports" />
+        </classes>
+    </test>
+    <test name="PayUReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.PayUReports" />
+        </classes>
+    </test>
+    <test name="LiveInfo">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.LiveInfo" />
+        </classes>
+    </test>
+    <test name="AlarmsNotifications">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.AlarmsNotifications" />
+        </classes>
+    </test>
+    <test name="AlertMessages">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.AlertMessages" />
+        </classes>
+    </test>
+    <test name="ApkImages">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.ApplicationImages" />
+        </classes>
+    </test>
+    <!-- <test name="SiteConfig">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.SiteConfig" />
+        </classes>
+    </test> -->
+    <test name="PosManagement">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.PosManagement" />
+        </classes>
+    </test>
+    <test name="PaymentManagement">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.PaymentManagement" />
+        </classes>
+    </test>
+    <test name="Roles">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Roles" />
+        </classes>
+    </test>
+    <test name="Users">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Users" />
+        </classes>
+    </test>
+    <test name="UserSiteAssignment">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.UserSiteAssign" />
+        </classes>
+    </test>
+    <test name="UserZoneAssignment">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.UserZoneAssign" />
+        </classes>
+    </test>
+    <test name="UserLogs">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.UserLogs" />
+        </classes>
+    </test>
+    <test name="AttenderLiveSessions">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.AttenderLiveSessions" />
+        </classes>
+    </test>
+    <test name="Coupons">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Coupons" />
+        </classes>
+    </test>
+    <test name="Feedback">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Feedback" />
+        </classes>
+    </test>
+</suite>

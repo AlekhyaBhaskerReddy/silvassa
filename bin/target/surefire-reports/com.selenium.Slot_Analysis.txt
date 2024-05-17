@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.Slot_Analysis
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 81.743 s - in com.selenium.Slot_Analysis

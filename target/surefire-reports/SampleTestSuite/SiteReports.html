@@ -1,0 +1,470 @@
+<html>
+<head>
+<title>TestNG:  SiteReports</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SiteReports</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>78/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 04 13:01:15 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>388 seconds (388150 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.SiteReports.siteReportAlertsCount()'><b>siteReportAlertsCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.verifyUnChargedTransactionTypeENTRY()'><b>verifyUnChargedTransactionTypeENTRY</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.searchSiteReportsDeviceGateway()'><b>searchSiteReportsDeviceGateway</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>7</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueDayCSV()'><b>siteRevenueDayCSV</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.alertsCount()'><b>alertsCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteReportsDatesEnabled()'><b>siteReportsDatesEnabled</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>23</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateAlertType()'><b>validateAlertType</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteUnChargedTab()'><b>siteUnChargedTab</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueMonthPopUPClose()'><b>siteRevenueMonthPopUPClose</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueViewDetailsDay()'><b>siteRevenueViewDetailsDay</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.selectUnChargedStartDate()'><b>selectUnChargedStartDate</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueMonthViewDetails()'><b>siteRevenueMonthViewDetails</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>7</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReports_PassCount()'><b>validateSiteReports_PassCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.searchSiteRevenueFilter()'><b>searchSiteRevenueFilter</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>9</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateUnchargedVehicleType()'><b>validateUnchargedVehicleType</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReportsCashAmount()'><b>validateSiteReportsCashAmount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.viewSitesList()'><b>viewSitesList</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReports_VehicleCount()'><b>validateSiteReports_VehicleCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.UnChargedVehiclesCountDatesEnabled()'><b>UnChargedVehiclesCountDatesEnabled</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.getMonthRevenue()'><b>getMonthRevenue</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>10</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueDeviceStatusTable()'><b>siteRevenueDeviceStatusTable</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>12</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReports_ReservationAmount()'><b>validateSiteReports_ReservationAmount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.selectRevenueEndDate()'><b>selectRevenueEndDate</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteReportDeviceStatusCount()'><b>siteReportDeviceStatusCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.selectSiteRevenueCount()'><b>selectSiteRevenueCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.login()'><b>login</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.getWeekUnChargedVehicles()'><b>getWeekUnChargedVehicles</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.UnChargedVehiclesCount()'><b>UnChargedVehiclesCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueSelectedPopUPClose()'><b>siteRevenueSelectedPopUPClose</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.searchUnChargedVehicle()'><b>searchUnChargedVehicle</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.reportsAnalyticsPage()'><b>reportsAnalyticsPage</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.selectRevenueStartDate()'><b>selectRevenueStartDate</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateTicketNo()'><b>validateTicketNo</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueTable()'><b>siteRevenueTable</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueViewDetailsWeek()'><b>siteRevenueViewDetailsWeek</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateAlertId()'><b>validateAlertId</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.getMonthUnChargedVehicles()'><b>getMonthUnChargedVehicles</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.searchSiteReportsDevicePOS()'><b>searchSiteReportsDevicePOS</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReports_ReservationCount()'><b>validateSiteReports_ReservationCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueWeekPopUPClose()'><b>siteRevenueWeekPopUPClose</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.unChargedVehiclesTable()'><b>unChargedVehiclesTable</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>39</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.getDaySiteRevenue()'><b>getDaySiteRevenue</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.verifyTransactionTypeNormal()'><b>verifyTransactionTypeNormal</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueWeekPDF()'><b>siteRevenueWeekPDF</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>9</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteListUnCharged()'><b>siteListUnCharged</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReportsCardAmount()'><b>validateSiteReportsCardAmount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteReportPage()'><b>siteReportPage</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.selectUnChargedEndDate()'><b>selectUnChargedEndDate</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueSelectedPDF()'><b>siteRevenueSelectedPDF</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.getWeekSiteRevenue()'><b>getWeekSiteRevenue</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteAlerts()'><b>siteAlerts</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueSelectedDateCSV()'><b>siteRevenueSelectedDateCSV</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.logout()'><b>logout</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateDeviceType()'><b>validateDeviceType</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.selectUnChargedVehicleCount()'><b>selectUnChargedVehicleCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.searchSiteReportsDeviceSensor()'><b>searchSiteReportsDeviceSensor</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateActionAsComplete()'><b>validateActionAsComplete</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.getDayUnChargedVehicles()'><b>getDayUnChargedVehicles</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReportsUPIAmount()'><b>validateSiteReportsUPIAmount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateDeviceSlNo()'><b>validateDeviceSlNo</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueDayPDF()'><b>siteRevenueDayPDF</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>9</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteDeviceStatus()'><b>siteDeviceStatus</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueMonthPDF()'><b>siteRevenueMonthPDF</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueMonthCSV()'><b>siteRevenueMonthCSV</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>9</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.searchUnChargedTransNormal()'><b>searchUnChargedTransNormal</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueSelectedViewDetails()'><b>siteRevenueSelectedViewDetails</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>20</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueDayPopUPClose()'><b>siteRevenueDayPopUPClose</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.revenueDashboardOpen()'><b>revenueDashboardOpen</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.compareEntryExitDateTime()'><b>compareEntryExitDateTime</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateVehicleNumber()'><b>validateVehicleNumber</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReports_DueCount()'><b>validateSiteReports_DueCount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateAction()'><b>validateAction</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateVehicleType()'><b>validateVehicleType</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReportsPassAmount()'><b>validateSiteReportsPassAmount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.devicesStatusTable()'><b>devicesStatusTable</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.siteRevenueWeekCSV()'><b>siteRevenueWeekCSV</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.validateSiteReports_DueAmount()'><b>validateSiteReports_DueAmount</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+<tr>
+<td title='com.selenium.SiteReports.nextPage()'><b>nextPage</b><br>Test class: com.selenium.SiteReports</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.SiteReports@1329eff</td></tr>
+</table><p>
+</body>
+</html>

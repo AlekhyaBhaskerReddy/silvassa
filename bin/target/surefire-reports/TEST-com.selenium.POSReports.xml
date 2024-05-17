@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.selenium.POSReports" time="10.482" tests="400" errors="0" skipped="399" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/iramtech/Documents/testNg/parking/extent/target/test-classes:/home/iramtech/Documents/testNg/parking/extent/target/classes:/home/iramtech/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/iramtech/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/iramtech/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/iramtech/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-java/4.10.0/selenium-java-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-api/4.10.0/selenium-api-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.10.0/selenium-chrome-driver-4.10.0.jar:/home/iramtech/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/home/iramtech/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/home/iramtech/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/home/iramtech/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/iramtech/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/iramtech/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/iramtech/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/iramtech/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/home/iramtech/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/home/iramtech/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.10.0/selenium-chromium-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-json/4.10.0/selenium-json-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.10.0/selenium-manager-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.10.0/selenium-devtools-v112-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.10.0/selenium-devtools-v113-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.10.0/selenium-devtools-v114-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.10.0/selenium-devtools-v85-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.10.0/selenium-edge-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.10.0/selenium-firefox-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-http/4.10.0/selenium-http-4.10.0.jar:/home/iramtech/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.10.0/selenium-ie-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.10.0/selenium-remote-driver-4.10.0.jar:/home/iramtech/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/home/iramtech/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/home/iramtech/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/iramtech/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/iramtech/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/iramtech/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/iramtech/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/iramtech/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.10.0/selenium-safari-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-support/4.10.0/selenium-support-4.10.0.jar:/home/iramtech/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/home/iramtech/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/iramtech/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/iramtech/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/home/iramtech/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/iramtech/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/iramtech/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/iramtech/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/iramtech/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/iramtech/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/iramtech/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/iramtech/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/iramtech/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/iramtech/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/iramtech/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/iramtech/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/iramtech/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/iramtech/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-18-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/iramtech/Documents/testNg/parking/extent/target/surefire/surefirebooter3647444243452435009.jar /home/iramtech/Documents/testNg/parking/extent/target/surefire 2024-02-01T13-16-47_463-jvmRun1 surefire4430739317391286381tmp surefire_05330580324577187241tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="POSReports.java"/>
+    <property name="surefire.test.class.path" value="/home/iramtech/Documents/testNg/parking/extent/target/test-classes:/home/iramtech/Documents/testNg/parking/extent/target/classes:/home/iramtech/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/iramtech/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/iramtech/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/iramtech/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-java/4.10.0/selenium-java-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-api/4.10.0/selenium-api-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.10.0/selenium-chrome-driver-4.10.0.jar:/home/iramtech/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/home/iramtech/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/home/iramtech/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/home/iramtech/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/iramtech/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/iramtech/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/iramtech/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/iramtech/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/home/iramtech/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/home/iramtech/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.10.0/selenium-chromium-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-json/4.10.0/selenium-json-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.10.0/selenium-manager-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.10.0/selenium-devtools-v112-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.10.0/selenium-devtools-v113-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.10.0/selenium-devtools-v114-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.10.0/selenium-devtools-v85-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.10.0/selenium-edge-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.10.0/selenium-firefox-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-http/4.10.0/selenium-http-4.10.0.jar:/home/iramtech/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.10.0/selenium-ie-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.10.0/selenium-remote-driver-4.10.0.jar:/home/iramtech/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/home/iramtech/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/home/iramtech/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/iramtech/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/iramtech/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/iramtech/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/iramtech/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/iramtech/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.10.0/selenium-safari-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-support/4.10.0/selenium-support-4.10.0.jar:/home/iramtech/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/home/iramtech/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/iramtech/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/iramtech/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/home/iramtech/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/iramtech/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/iramtech/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/iramtech/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/iramtech/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/iramtech/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/iramtech/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/iramtech/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/iramtech/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/iramtech/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/iramtech/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/iramtech/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/iramtech/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/iramtech/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/iramtech"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-18-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/iramtech/Documents/testNg/parking/extent"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/iramtech/Documents/testNg/parking/extent/target/surefire/surefirebooter3647444243452435009.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2-ea+9-Ubuntu-222.04"/>
+    <property name="user.name" value="iramtech"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.2.0-39-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/iramtech/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="18.0.2-ea"/>
+    <property name="user.dir" value="/home/iramtech/Documents/testNg/parking/extent"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="18.0.2-ea+9-Ubuntu-222.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="setUp" classname="com.selenium.POSReports" time="9.893">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'iramtech-Vostro-3470', ip: '127.0.1.1'
+	at com.selenium.POSReports.setUp(POSReports.java:41)
+Caused by: org.openqa.selenium.WebDriverException: 
+Driver server process died prematurely.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: driver.version: ChromeDriver
+	at com.selenium.POSReports.setUp(POSReports.java:41)
+</failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Feb 01, 2024 1:16:48 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+]]></system-err>
+  </testcase>
+  <testcase name="login" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getResult" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="revenueDashboardOpen" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuepage" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSelectSite" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuedatesEnabled" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectPosRevenueStartDate" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectReserveEndDate" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSelectTwoWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueposNumber" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitButtonTwo" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormTwoW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningTwoW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningTwoW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllTwoW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVTwoW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFTwoW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseTwoW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="twoWheelerPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSelectFourWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitBtnFourW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormFourW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningFourW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningFouW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllFourW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVFourW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFFourW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseFourW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="fourWheelerPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSelectThreeWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitBtnThreeW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormThreeW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningThreeW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningThreeW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllThreeW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVThreeW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFThreeW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseThreeW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="threeWheelerPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSelectSixWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitBtnSixW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormSixW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningSixW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningSixW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllSixW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVSixW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFSixW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseSixW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="sixWheelerPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSelectEightWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitBtnEightW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormEightW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningEightW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningEightW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllEightW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVEightW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFEightW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseEightW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="eightWheelerPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSelectTenWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitBtnTenW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormTenW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningTenW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningTenW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllTenW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVTenW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFTenW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseTenW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="tenWheelerPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSelectTwelveWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitBtnTwelveW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormTwelveW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningTwelveW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningTwelveW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllTwelveW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVTwelveW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFTwelveW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseTwelveW" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="twelveWheelerPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectRevenueIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitBtnIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="iOSPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectRevenueAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitBtnAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="androidPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectRevenueFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="fasTagRevenueStatus" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="clickRevenueGotItBtn" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueSubmitBtnFastag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueFormFastTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftMorningFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftEveningFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueShiftAllFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenueCSVFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePDFFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRevenuePopUPCloseFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="fasTagPOSRevenue" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactions" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionsDateRange" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectReservationStartDate" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectReservationEndDate" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransTypeTwoEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posVehicleTypeTwoWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionSubmitButton" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionForm" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionCSVTwoEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionsPDFTwoEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPopUPCloseTwoEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="EntryPosTransTwoWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransTypeTwoExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionSubmitBtnTwoExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionsFormTwoExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionCSVTwoExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionPDFTwoExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPopUPCloseTwoExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="ExitPosTransTwoWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransTypeFourWheelerEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posVehicleTypeFourWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionSubmitBtnFourEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionFormFourEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionCSVFourEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionsPDFFourEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPopUPCloseFourEntry" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="EntryPosTransFourWheeler" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransTypeFourExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionSubmitBtnFourExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionsFormFourExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionCSVFourExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransactionPDFFourExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPopUPCloseFourExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransFourExit" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectTransIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransSubmitBtnIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransFormIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRTransCSViOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPDFiOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPopUPCloseiOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="iOSPosTransaction" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectTransAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransSubmitBtnAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransFormAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransCSVAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPDFAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPopUPCloseSAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="androidPosTransaction" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectTransFastag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="fasTagTransStatus" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="clickTransGotItBtn" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransSubmitBtnFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransFormFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posRTransCSVFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPDFFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posTransPopUPCloseFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="fasTagPosTransaction" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttender" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderDay" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="attenderUsageDay" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderWeek" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="attenderUsageWeek" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderMonth" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="attenderUsageMonth" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderForm" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderCsv" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderPdf" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderPopUPClose" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectAttenderIOS" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderFormSecond" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderCsvSecond" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderPdfSecond" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderPopUPCloseSecond" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="iOSPosAttender" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectAttenderAndroid" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderFormThird" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderCsvThird" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderPdfThird" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderPopUPCloseThird" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="androidPosAttender" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectAttenderFasTag" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="selectAttenderFasTagPopUp" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="fasTagFasTagStatus" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderFormFourth" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderCsvForth" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderPdfForth" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="posAttenderPopUPCloseForth" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="fasTagPosAttender" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="logout" classname="com.selenium.POSReports" time="0">
+    <skipped message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;iramtech-Vostro-3470&apos;, ip: &apos;127.0.1.1&apos;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.selenium.POSReports" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

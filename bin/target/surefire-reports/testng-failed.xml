@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="PosHourlyReport(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.PosHourlyReport">
+        <methods>
+          <include name="getResult"/>
+          <include name="validateFourWDateFormat"/>
+          <include name="validateTwoWDateFormat"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.PosHourlyReport -->
+    </classes>
+  </test> <!-- PosHourlyReport(failed) -->
+  <test thread-count="5" name="MobileNumberSearch(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.MobileNumberSearch">
+        <methods>
+          <include name="validateTransactionAmount"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="validateTransactionVehicleNumber"/>
+          <include name="tearDown"/>
+          <include name="validateTransactionPayU_reference"/>
+          <include name="validateTransactionId"/>
+          <include name="validateTransactionCreatedDate"/>
+          <include name="validateTransactionType"/>
+          <include name="validateTransactionStartDate"/>
+          <include name="validateTransactionVehicleType"/>
+          <include name="validateTransactionStatus"/>
+          <include name="validateTransactionEndDate"/>
+        </methods>
+      </class> <!-- com.selenium.MobileNumberSearch -->
+    </classes>
+  </test> <!-- MobileNumberSearch(failed) -->
+  <test thread-count="5" name="Site_Analysis(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.Site_Analysis">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="redirectSiteAnalysis"/>
+        </methods>
+      </class> <!-- com.selenium.Site_Analysis -->
+    </classes>
+  </test> <!-- Site_Analysis(failed) -->
+  <test thread-count="5" name="VehicleBlockList(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.VehicleBlockList">
+        <methods>
+          <include name="vehicleBlockWeekCsv"/>
+          <include name="getResult"/>
+          <include name="vehicleBlockMonthCsv"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.VehicleBlockList -->
+    </classes>
+  </test> <!-- VehicleBlockList(failed) -->
+  <test thread-count="5" name="AlarmsNotifications(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.AlarmsNotifications">
+        <methods>
+          <include name="getResult"/>
+          <include name="validateActionStatus"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.AlarmsNotifications -->
+    </classes>
+  </test> <!-- AlarmsNotifications(failed) -->
+  <test thread-count="5" name="ApkImages(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.ApplicationImages">
+        <methods>
+          <include name="getiOSDetails"/>
+          <include name="getAndroidHeading"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="getiOSVersionDetails_Heading"/>
+          <include name="tearDown"/>
+          <include name="getAndroidVersionDetails_Heading"/>
+          <include name="getmPOSDetails"/>
+        </methods>
+      </class> <!-- com.selenium.ApplicationImages -->
+    </classes>
+  </test> <!-- ApkImages(failed) -->
+  <test thread-count="5" name="SiteConfig(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.SiteConfig">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addbtnFasTagFtmPOS"/>
+          <include name="openTreeThirdTime"/>
+          <include name="openTreeSecondTime"/>
+          <include name="fasTagControllerDetails"/>
+          <include name="addFtmPOSDetails"/>
+          <include name="openTreeFifthTime"/>
+          <include name="addFtPrinterDetails"/>
+          <include name="addFtDisplayDetails"/>
+          <include name="jstreeOFFstreet"/>
+          <include name="addFasTag"/>
+          <include name="controllerDetailsView"/>
+          <include name="openTreeSixthTime"/>
+          <include name="openTreeSeventhTime"/>
+          <include name="addbtnFasTagSelectftBarrier"/>
+          <include name="addFasTagSelectftReader"/>
+          <include name="jstreeOFFstreetDevices"/>
+          <include name="jstreeZone"/>
+          <include name="addbtnFasTagSelectftDisplay"/>
+          <include name="updateController"/>
+          <include name="OpenTreeTenthTime"/>
+          <include name="getResult"/>
+          <include name="addFasTagSelectftPrinter"/>
+          <include name="OpenTreeEighthTime"/>
+          <include name="addFasTagSelectftDisplay"/>
+          <include name="addFasTagEnterDetails"/>
+          <include name="addFtBarrierDetails"/>
+          <include name="addbtnFtPrinter"/>
+          <include name="OpenTreeNinthTime"/>
+          <include name="jstreeSites"/>
+          <include name="addbtnFasTagSelectftReader"/>
+          <include name="openTreeForthTime"/>
+          <include name="addSingleDevicebtn"/>
+          <include name="addFasTagSelectftBarrier"/>
+          <include name="setUp"/>
+          <include name="addFasTagSelectFtmPOS"/>
+        </methods>
+      </class> <!-- com.selenium.SiteConfig -->
+    </classes>
+  </test> <!-- SiteConfig(failed) -->
+</suite> <!-- Failed suite [SampleTestSuite] -->

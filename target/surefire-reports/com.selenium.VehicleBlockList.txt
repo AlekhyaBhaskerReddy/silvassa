@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.VehicleBlockList
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 92.561 s - in com.selenium.VehicleBlockList

@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1601, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 5,036.396 s <<< FAILURE! - in TestSuite
+validateTwoWDateFormat(com.selenium.PosHourlyReport)  Time elapsed: 0.021 s  <<< FAILURE!
+java.text.ParseException: Unparseable date: "2024-03-13"
+	at com.selenium.PosHourlyReport.validateTwoWDateFormat(PosHourlyReport.java:521)
+
+validateFourWDateFormat(com.selenium.PosHourlyReport)  Time elapsed: 0.045 s  <<< FAILURE!
+java.text.ParseException: Unparseable date: "No matching records found"
+	at com.selenium.PosHourlyReport.validateTwoWDateFormat(PosHourlyReport.java:521)
+	at com.selenium.PosHourlyReport.validateFourWDateFormat(PosHourlyReport.java:640)
+
+vehicleBlockWeekCsv(com.selenium.VehicleBlockList)  Time elapsed: 0.019 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <label class="btn btn-outline-primary"> is not clickable at point (563,237) because another element <div class="swal2-header"> obscures it
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf0d887-fa09-4e3a-80ff-58656caf204f, clickElement {id=8f200c0b-1f92-4c18-9ba5-a60b56952234}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401184549, moz:debuggerAddress: 127.0.0.1:13724, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 6.2.0-39-generic, moz:processID: 117414, moz:profile: /tmp/rust_mozprofiledQhOdS, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13724/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (ccf0d887-fa09-4e3a-80ff-58656caf204f)] -> xpath: //*[@id='dayRangeFilter']/label[3]]
+Session ID: ccf0d887-fa09-4e3a-80ff-58656caf204f
+	at com.selenium.VehicleBlockList.vehicleBlockWeekCsv(VehicleBlockList.java:135)
+
+vehicleBlockMonthCsv(com.selenium.VehicleBlockList)  Time elapsed: 0.019 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <label class="btn btn-outline-primary active"> is not clickable at point (607,237) because another element <div class="swal2-header"> obscures it
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ccf0d887-fa09-4e3a-80ff-58656caf204f, clickElement {id=825820fe-692c-4f3f-a32a-a90fbd788d21}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401184549, moz:debuggerAddress: 127.0.0.1:13724, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 6.2.0-39-generic, moz:processID: 117414, moz:profile: /tmp/rust_mozprofiledQhOdS, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:13724/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (ccf0d887-fa09-4e3a-80ff-58656caf204f)] -> xpath: //*[@id='dayRangeFilter']/label[4]]
+Session ID: ccf0d887-fa09-4e3a-80ff-58656caf204f
+	at com.selenium.VehicleBlockList.vehicleBlockMonthCsv(VehicleBlockList.java:146)
+
+validatePayUAmount(com.selenium.PayUReports)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 6 out of bounds for length 1
+	at com.selenium.PayUReports.validatePayUAmount(PayUReports.java:253)
+
+validatePayUStatus(com.selenium.PayUReports)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 13 out of bounds for length 1
+	at com.selenium.PayUReports.validatePayUStatus(PayUReports.java:284)
+
+verifyAutoFillForAdminRole(com.selenium.Roles)  Time elapsed: 3.127 s  <<< FAILURE!
+java.lang.AssertionError: expected [Auto-Filled-Value-For-AccessType] but found [Write]
+	at com.selenium.Roles.verifyAutoFillForAdminRole(Roles.java:130)
+
+verifyAutoFillForAttenderRole(com.selenium.Roles)  Time elapsed: 3.328 s  <<< FAILURE!
+java.lang.AssertionError: expected [Auto-Filled-Value-For-AccessType] but found [Read]
+	at com.selenium.Roles.verifyAutoFillForAttenderRole(Roles.java:496)
+
+selectSite(com.selenium.UserSiteAssign)  Time elapsed: 0.73 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <form id="assignSiteMngr"> is not reachable by keyboard
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f105247a-081b-458c-bf65-7aaa1eb213fa, sendKeysToElement {id=80ec6335-1921-4719-a7fb-faf29774050a, value=[Ljava.lang.CharSequence;@6ee473eb}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401184549, moz:debuggerAddress: 127.0.0.1:11066, moz:geckodriverVersion: 0.34.0, moz:headless: true, moz:platformVersion: 6.2.0-39-generic, moz:processID: 144993, moz:profile: /tmp/rust_mozprofilePRziFc, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:11066/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (f105247a-081b-458c-bf65-7aaa1eb213fa)] -> id: assignSiteMngr]
+Session ID: f105247a-081b-458c-bf65-7aaa1eb213fa
+	at com.selenium.UserSiteAssign.selectSite(UserSiteAssign.java:269)
+

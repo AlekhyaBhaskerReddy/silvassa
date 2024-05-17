@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.UserSiteAssign
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 106.319 s <<< FAILURE! - in com.selenium.UserSiteAssign
+selectSite(com.selenium.UserSiteAssign)  Time elapsed: 0.74 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <form id="assignSiteMngr"> is not reachable by keyboard
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ced97622-a3e3-4c3d-b7a6-f29b84405088, sendKeysToElement {id=33447ba2-0f02-48ff-a4f6-722893c54302, value=[Ljava.lang.CharSequence;@47ec7422}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 124.0.2, moz:accessibilityChecks: false, moz:buildID: 20240401184549, moz:debuggerAddress: 127.0.0.1:17506, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 150752, moz:profile: /tmp/rust_mozprofilehJ7gz1, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:17506/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (ced97622-a3e3-4c3d-b7a6-f29b84405088)] -> id: assignSiteMngr]
+Session ID: ced97622-a3e3-4c3d-b7a6-f29b84405088
+	at com.selenium.UserSiteAssign.selectSite(UserSiteAssign.java:271)
+

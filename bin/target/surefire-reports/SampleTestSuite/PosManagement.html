@@ -1,0 +1,670 @@
+<html>
+<head>
+<title>TestNG:  PosManagement</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>PosManagement</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>118/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 01 14:59:37 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>410 seconds (410110 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.PosManagement.clickVerifySaveReserveBtn()'><b>clickVerifySaveReserveBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addShiftPopUPClose()'><b>addShiftPopUPClose</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.openModalDialog()'><b>openModalDialog</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.deleteSpecialChargesStatusOK()'><b>deleteSpecialChargesStatusOK</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addReservationChargesDay()'><b>addReservationChargesDay</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.attenderShiftsTab()'><b>attenderShiftsTab</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.pChargesSubmitBtn()'><b>pChargesSubmitBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.posConfigurationPage()'><b>posConfigurationPage</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectOptionFromDropdown()'><b>selectOptionFromDropdown</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.splChargeUPIDisCharges()'><b>splChargeUPIDisCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updatePassstatusOK()'><b>updatePassstatusOK</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.AddHawkerPopUp()'><b>AddHawkerPopUp</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.verifyAdvertisementTab()'><b>verifyAdvertisementTab</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickEditHawkerButton()'><b>clickEditHawkerButton</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>16</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.hawkerUpdate()'><b>hawkerUpdate</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.revenueDashboardOpen()'><b>revenueDashboardOpen</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.extractPopupTextAddVehicle()'><b>extractPopupTextAddVehicle</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickValetChargesEditBtn()'><b>clickValetChargesEditBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.viewHawkerDetails()'><b>viewHawkerDetails</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectVehicle()'><b>selectVehicle</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectWednesdayButtonThrice()'><b>selectWednesdayButtonThrice</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.parkingChargesViewTwice()'><b>parkingChargesViewTwice</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateReservationsSubmitBtn()'><b>updateReservationsSubmitBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.reserveChargesEditBtn()'><b>reserveChargesEditBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectSpecialCharges()'><b>selectSpecialCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.splChargesEnterDisCharges()'><b>splChargesEnterDisCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addValetChargesDateSelection()'><b>addValetChargesDateSelection</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>7</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.advertiseSendKeysEndDateTime()'><b>advertiseSendKeysEndDateTime</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateShifts()'><b>updateShifts</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectParkingChargesTabTwice()'><b>selectParkingChargesTabTwice</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addSpecialChargesPopUptext()'><b>addSpecialChargesPopUptext</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateHawker()'><b>updateHawker</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.reserveChargeUpdateStatusOK()'><b>reserveChargeUpdateStatusOK</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickValetChargesAddBtn()'><b>clickValetChargesAddBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.sendKeysInAdvertSubTypeField()'><b>sendKeysInAdvertSubTypeField</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.deleteHawker()'><b>deleteHawker</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.login()'><b>login</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.advertiseSendKeysCharges()'><b>advertiseSendKeysCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addValetChargesSubmitBtn()'><b>addValetChargesSubmitBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addAdvertiseButton()'><b>addAdvertiseButton</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickVerifyAddReserveBtn()'><b>clickVerifyAddReserveBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addReservationChargesDateSelection()'><b>addReservationChargesDateSelection</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickSCAddBtn()'><b>clickSCAddBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateChargeInValetCharges()'><b>updateChargeInValetCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addSplChargesSubmitBtn()'><b>addSplChargesSubmitBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateInputValue()'><b>updateInputValue</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addValetChargesStatusOK()'><b>addValetChargesStatusOK</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>16</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addValetChargesDuration()'><b>addValetChargesDuration</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.sendKeysTophoneNumberField()'><b>sendKeysTophoneNumberField</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.splChargesEndHour()'><b>splChargesEndHour</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.hawkerDeletePopUp()'><b>hawkerDeletePopUp</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateValetChargesDateSelection()'><b>updateValetChargesDateSelection</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.splChargesEnterCharges()'><b>splChargesEnterCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addValetChargesDay()'><b>addValetChargesDay</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addValetChargesPopupText()'><b>addValetChargesPopupText</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addShiftPopupText()'><b>addShiftPopupText</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.advertiseAddStatus()'><b>advertiseAddStatus</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.splChargesWeekBtn()'><b>splChargesWeekBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addVehicleBtn()'><b>addVehicleBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectSpecialChargesTwice()'><b>selectSpecialChargesTwice</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.performAdvertiseSearch()'><b>performAdvertiseSearch</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.parkingVehicleTab()'><b>parkingVehicleTab</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addReservationChargesVehicleType()'><b>addReservationChargesVehicleType</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.hawkerTab()'><b>hawkerTab</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickParkingPassesEditBtn()'><b>clickParkingPassesEditBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.deleteSpecialCharges()'><b>deleteSpecialCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickAddAdvertisementButton()'><b>clickAddAdvertisementButton</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.extractUpdateParckingChargesText()'><b>extractUpdateParckingChargesText</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectWednesdayButton()'><b>selectWednesdayButton</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.extractAddReservationCharges()'><b>extractAddReservationCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.hawkerUpdatePopUp()'><b>hawkerUpdatePopUp</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.advertiseSendKeysStartDateTime()'><b>advertiseSendKeysStartDateTime</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickAddParkVehicle()'><b>clickAddParkVehicle</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.AddHawkerPopUpStatus()'><b>AddHawkerPopUpStatus</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.popUpCloseAddReservation()'><b>popUpCloseAddReservation</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.okStatusAddReservation()'><b>okStatusAddReservation</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.splChargesStartHour()'><b>splChargesStartHour</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.sendKeysToaddressField()'><b>sendKeysToaddressField</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addSpecialChargesStatusOK()'><b>addSpecialChargesStatusOK</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.hawkerUpdateStatus()'><b>hawkerUpdateStatus</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.parkingChargeStatusOK()'><b>parkingChargeStatusOK</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateValetChargesPopupText()'><b>updateValetChargesPopupText</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.advertiseAddPopUp()'><b>advertiseAddPopUp</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectReserveCharges()'><b>selectReserveCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.parkingChargesTab()'><b>parkingChargesTab</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.logout()'><b>logout</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.performPassesTabSearch()'><b>performPassesTabSearch</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addReservationChargesDuration()'><b>addReservationChargesDuration</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addAttenderShift()'><b>addAttenderShift</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>12</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.statusOKAddVehicle()'><b>statusOKAddVehicle</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectValetCharges()'><b>selectValetCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.deleteSpecialChargesPopUptext()'><b>deleteSpecialChargesPopUptext</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickUpdatePassButton()'><b>clickUpdatePassButton</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.setPassPrice()'><b>setPassPrice</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectAllWeekButtons()'><b>selectAllWeekButtons</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.sendKeysToFieldsAdvertTypeField()'><b>sendKeysToFieldsAdvertTypeField</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.specialChargesView()'><b>specialChargesView</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updatereservationCharges()'><b>updatereservationCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateValetChargesStatusOK()'><b>updateValetChargesStatusOK</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectWednesdayButtonTwice()'><b>selectWednesdayButtonTwice</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectSiteName()'><b>selectSiteName</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.splChargeCardDisCharges()'><b>splChargeCardDisCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.hawkerDeleteStatus()'><b>hawkerDeleteStatus</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.editValetCharges()'><b>editValetCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateHawkerDetails()'><b>updateHawkerDetails</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateValetChargesSubmitBtn()'><b>updateValetChargesSubmitBtn</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updatePassPopupText()'><b>updatePassPopupText</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateShiftstatusOK()'><b>updateShiftstatusOK</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickAddAttenderShiftButton()'><b>clickAddAttenderShiftButton</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.selectParkingChargesTabThrice()'><b>selectParkingChargesTabThrice</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.parkingPassesTab()'><b>parkingPassesTab</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.parkingChargesView()'><b>parkingChargesView</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addShiftstatusOK()'><b>addShiftstatusOK</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.reserveChargesUpdatePopupText()'><b>reserveChargesUpdatePopupText</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.advertisementTab()'><b>advertisementTab</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.addReservationInputCharges()'><b>addReservationInputCharges</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.updateShiftPopupText()'><b>updateShiftPopupText</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+<tr>
+<td title='com.selenium.PosManagement.clickAddHawkerButton()'><b>clickAddHawkerButton</b><br>Test class: com.selenium.PosManagement</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.PosManagement@72e5a8e</td></tr>
+</table><p>
+</body>
+</html>

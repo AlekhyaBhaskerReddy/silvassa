@@ -1,0 +1,547 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1415, Failures: 54, Errors: 0, Skipped: 0, Time elapsed: 4,430.025 s <<< FAILURE! - in TestSuite
+validateTwoWDateFormat(com.selenium.PosHourlyReport)  Time elapsed: 0.017 s  <<< FAILURE!
+java.text.ParseException: Unparseable date: "No User data available"
+	at com.selenium.PosHourlyReport.validateTwoWDateFormat(PosHourlyReport.java:513)
+
+validateFourWDateFormat(com.selenium.PosHourlyReport)  Time elapsed: 0.019 s  <<< FAILURE!
+java.text.ParseException: Unparseable date: "No User data available"
+	at com.selenium.PosHourlyReport.validateTwoWDateFormat(PosHourlyReport.java:513)
+	at com.selenium.PosHourlyReport.validateFourWDateFormat(PosHourlyReport.java:632)
+
+validateTransactionVehicleNumber(com.selenium.MobileNumberSearch)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionVehicleNumber(MobileNumberSearch.java:290)
+
+validateTransactionVehicleType(com.selenium.MobileNumberSearch)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionVehicleType(MobileNumberSearch.java:321)
+
+validateTransactionType(com.selenium.MobileNumberSearch)  Time elapsed: 0.022 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionType(MobileNumberSearch.java:351)
+
+validateTransactionCreatedDate(com.selenium.MobileNumberSearch)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 4 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionCreatedDate(MobileNumberSearch.java:399)
+
+validateTransactionStartDate(com.selenium.MobileNumberSearch)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 5 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionStartDate(MobileNumberSearch.java:447)
+
+validateTransactionEndDate(com.selenium.MobileNumberSearch)  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 6 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionEndDate(MobileNumberSearch.java:495)
+
+validateTransactionPayU_reference(com.selenium.MobileNumberSearch)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 7 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionPayU_reference(MobileNumberSearch.java:527)
+
+validateTransactionId(com.selenium.MobileNumberSearch)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 8 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionId(MobileNumberSearch.java:560)
+
+validateTransactionAmount(com.selenium.MobileNumberSearch)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 9 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionAmount(MobileNumberSearch.java:593)
+
+validateTransactionStatus(com.selenium.MobileNumberSearch)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index 10 out of bounds for length 1
+	at com.selenium.MobileNumberSearch.validateTransactionStatus(MobileNumberSearch.java:624)
+
+redirectSiteAnalysis(com.selenium.Site_Analysis)  Time elapsed: 2.023 s  <<< FAILURE!
+java.lang.AssertionError: Site Analysis Page not found
+	at com.selenium.Site_Analysis.redirectSiteAnalysis(Site_Analysis.java:83)
+
+vehicleBlockWeekCsv(com.selenium.VehicleBlockList)  Time elapsed: 0.02 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <label class="btn btn-outline-primary"> is not clickable at point (544,237) because another element <div id="loading"> obscures it
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d9f8ed-48e2-44bc-af4e-7f50889fce0b, clickElement {id=1373f203-8301-4270-ac02-e9b4535300f6}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:7361, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1194151, moz:profile: /tmp/rust_mozprofile7B9yaV, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7361/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (54d9f8ed-48e2-44bc-af4e-7f50889fce0b)] -> xpath: //*[@id='dayRangeFilter']/label[3]]
+Session ID: 54d9f8ed-48e2-44bc-af4e-7f50889fce0b
+	at com.selenium.VehicleBlockList.vehicleBlockWeekCsv(VehicleBlockList.java:135)
+
+vehicleBlockMonthCsv(com.selenium.VehicleBlockList)  Time elapsed: 0.022 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <label class="btn btn-outline-primary active"> is not clickable at point (588,237) because another element <div id="loading"> obscures it
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [54d9f8ed-48e2-44bc-af4e-7f50889fce0b, clickElement {id=3322e0fc-9beb-46e3-9c39-0d757ae33425}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:7361, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1194151, moz:profile: /tmp/rust_mozprofile7B9yaV, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:7361/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (54d9f8ed-48e2-44bc-af4e-7f50889fce0b)] -> xpath: //*[@id='dayRangeFilter']/label[4]]
+Session ID: 54d9f8ed-48e2-44bc-af4e-7f50889fce0b
+	at com.selenium.VehicleBlockList.vehicleBlockMonthCsv(VehicleBlockList.java:146)
+
+validateActionStatus(com.selenium.AlarmsNotifications)  Time elapsed: 0.007 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #alertsPageDeviceAlertTable
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a4b072d7-04d6-4593-9244-25383160ea4c, findElement {using=id, value=alertsPageDeviceAlertTable}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:18201, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1209640, moz:profile: /tmp/rust_mozprofilejuL0Sc, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:18201/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a4b072d7-04d6-4593-9244-25383160ea4c
+	at com.selenium.AlarmsNotifications.validateActionStatus(AlarmsNotifications.java:962)
+
+getAndroidHeading(com.selenium.ApplicationImages)  Time elapsed: 0.007 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #lblAndroidTitle
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f, findElement {using=id, value=lblAndroidTitle}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:4565, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1216341, moz:profile: /tmp/rust_mozprofileTN8bZh, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:4565/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f
+	at com.selenium.ApplicationImages.getAndroidHeading(ApplicationImages.java:170)
+
+getAndroidVersionDetails_Heading(com.selenium.ApplicationImages)  Time elapsed: 0.005 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #lblandroidVersionTitle
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f, findElement {using=id, value=lblandroidVersionTitle}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:4565, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1216341, moz:profile: /tmp/rust_mozprofileTN8bZh, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:4565/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f
+	at com.selenium.ApplicationImages.getAndroidVersionDetails_Heading(ApplicationImages.java:251)
+
+getiOSDetails(com.selenium.ApplicationImages)  Time elapsed: 0.003 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #lbliosTitle
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f, findElement {using=id, value=lbliosTitle}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:4565, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1216341, moz:profile: /tmp/rust_mozprofileTN8bZh, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:4565/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f
+	at com.selenium.ApplicationImages.getiOSDetails(ApplicationImages.java:331)
+
+getiOSVersionDetails_Heading(com.selenium.ApplicationImages)  Time elapsed: 0.007 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #lbliosVersionTitle
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f, findElement {using=id, value=lbliosVersionTitle}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:4565, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1216341, moz:profile: /tmp/rust_mozprofileTN8bZh, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:4565/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f
+	at com.selenium.ApplicationImages.getiOSVersionDetails_Heading(ApplicationImages.java:423)
+
+getmPOSDetails(com.selenium.ApplicationImages)  Time elapsed: 0.003 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #lblmposTitle
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f, findElement {using=id, value=lblmposTitle}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:4565, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1216341, moz:profile: /tmp/rust_mozprofileTN8bZh, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:4565/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6eb82aac-bf52-4ea2-b5e3-9de78f91ce3f
+	at com.selenium.ApplicationImages.getmPOSDetails(ApplicationImages.java:468)
+
+jstreeZone(com.selenium.SiteConfig)  Time elapsed: 2.005 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='city_5']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//li[@id='city_5']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.jstreeZone(SiteConfig.java:82)
+
+jstreeSites(com.selenium.SiteConfig)  Time elapsed: 0.005 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='zone_1']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//li[@id='zone_1']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.jstreeSites(SiteConfig.java:87)
+
+jstreeOFFstreet(com.selenium.SiteConfig)  Time elapsed: 0.01 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='site_56']/ul
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//*[@id='site_56']/ul}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.jstreeOFFstreet(SiteConfig.java:94)
+
+jstreeOFFstreetDevices(com.selenium.SiteConfig)  Time elapsed: 1.01 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='level_61']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//*[@id='level_61']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.jstreeOFFstreetDevices(SiteConfig.java:101)
+
+addSingleDevicebtn(com.selenium.SiteConfig)  Time elapsed: 1.021 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <button id="btnAddDevices" class="btn btn-sm btn-primary float-right" type="button"> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=e1e672d9-de6f-4405-87a1-e8e4f2d5defd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> xpath: //*[@id='btnAddDevices']]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addSingleDevicebtn(SiteConfig.java:109)
+
+fasTagControllerDetails(com.selenium.SiteConfig)  Time elapsed: 0.995 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="fcDeviceName" class="form-control" name="fcDeviceName" type="text"> is not reachable by keyboard
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, sendKeysToElement {id=a0191bc7-3094-4c88-ba6f-d91a45576cdd, value=[Ljava.lang.CharSequence;@2c4a841d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fcDeviceName]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.fasTagControllerDetails(SiteConfig.java:137)
+
+openTreeSecondTime(com.selenium.SiteConfig)  Time elapsed: 18.012 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #ftControllerID_2
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=id, value=ftControllerID_2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.openTreeSecondTime(SiteConfig.java:179)
+
+addFasTag(com.selenium.SiteConfig)  Time elapsed: 0.012 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='ftControllerID_2_anchor']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//*[@id='ftControllerID_2_anchor']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFasTag(SiteConfig.java:185)
+
+addFasTagSelectftReader(com.selenium.SiteConfig)  Time elapsed: 3.023 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <option> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=1f29365b-ca33-47d7-b30d-4b9368614180}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[[[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceCatagory]] -> xpath: .//option[@value = "FastagReader"]]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFasTagSelectftReader(SiteConfig.java:195)
+
+addFasTagEnterDetails(com.selenium.SiteConfig)  Time elapsed: 0.007 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="fastagDeviceName" class="form-control" name="fastagDeviceName" type="text"> is not reachable by keyboard
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, sendKeysToElement {id=33ccbaac-d89c-4889-95cc-eece9ac5ffb0, value=[Ljava.lang.CharSequence;@6a021dd}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceName]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFasTagEnterDetails(SiteConfig.java:200)
+
+addbtnFasTagSelectftReader(com.selenium.SiteConfig)  Time elapsed: 0.007 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <button id="btnFastagSaveDevices" class="btn btn-sm btn-primary" type="submit"> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=a98f8e53-8a70-4b76-b764-5a5a3645fadc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: btnFastagSaveDevices]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addbtnFasTagSelectftReader(SiteConfig.java:210)
+
+openTreeThirdTime(com.selenium.SiteConfig)  Time elapsed: 14.048 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='city_5']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//li[@id='city_5']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.openTreeThirdTime(SiteConfig.java:234)
+
+addFasTagSelectftBarrier(com.selenium.SiteConfig)  Time elapsed: 5.05 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <option> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=44931e8a-a562-4084-87a6-425dc7fac3ae}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[[[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceCatagory]] -> xpath: .//option[@value = "FastagBoomBarrier"]]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFasTagSelectftBarrier(SiteConfig.java:259)
+
+addFtBarrierDetails(com.selenium.SiteConfig)  Time elapsed: 0.013 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="fastagDeviceName" class="form-control" name="fastagDeviceName" type="text"> is not reachable by keyboard
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, sendKeysToElement {id=33ccbaac-d89c-4889-95cc-eece9ac5ffb0, value=[Ljava.lang.CharSequence;@6e0f0e45}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceName]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFtBarrierDetails(SiteConfig.java:264)
+
+addbtnFasTagSelectftBarrier(com.selenium.SiteConfig)  Time elapsed: 0.01 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <button id="btnFastagSaveDevices" class="btn btn-sm btn-primary" type="submit"> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=a98f8e53-8a70-4b76-b764-5a5a3645fadc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: btnFastagSaveDevices]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addbtnFasTagSelectftBarrier(SiteConfig.java:275)
+
+openTreeForthTime(com.selenium.SiteConfig)  Time elapsed: 13.342 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='zone_1']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//li[@id='zone_1']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.openTreeForthTime(SiteConfig.java:302)
+
+addFasTagSelectftDisplay(com.selenium.SiteConfig)  Time elapsed: 3.056 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <option> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=4c7faa64-709e-47df-90b8-7b94d3d5b056}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[[[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceCatagory]] -> xpath: .//option[@value = "FastagDisplay"]]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFasTagSelectftDisplay(SiteConfig.java:324)
+
+addFtDisplayDetails(com.selenium.SiteConfig)  Time elapsed: 2.017 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="fastagDeviceName" class="form-control" name="fastagDeviceName" type="text"> is not reachable by keyboard
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, sendKeysToElement {id=33ccbaac-d89c-4889-95cc-eece9ac5ffb0, value=[Ljava.lang.CharSequence;@2a46f079}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceName]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFtDisplayDetails(SiteConfig.java:330)
+
+addbtnFasTagSelectftDisplay(com.selenium.SiteConfig)  Time elapsed: 0.016 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <button id="btnFastagSaveDevices" class="btn btn-sm btn-primary" type="submit"> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=a98f8e53-8a70-4b76-b764-5a5a3645fadc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: btnFastagSaveDevices]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addbtnFasTagSelectftDisplay(SiteConfig.java:340)
+
+openTreeFifthTime(com.selenium.SiteConfig)  Time elapsed: 10.026 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='city_5']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//li[@id='city_5']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.openTreeFifthTime(SiteConfig.java:364)
+
+addFasTagSelectftPrinter(com.selenium.SiteConfig)  Time elapsed: 3.046 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <option> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=fe172e87-d750-46a5-8e1b-abc51328a6fc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[[[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceCatagory]] -> xpath: .//option[@value = "FastagMobilePrinter"]]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFasTagSelectftPrinter(SiteConfig.java:388)
+
+addFtPrinterDetails(com.selenium.SiteConfig)  Time elapsed: 0.014 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="fastagDeviceName" class="form-control" name="fastagDeviceName" type="text"> is not reachable by keyboard
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, sendKeysToElement {id=33ccbaac-d89c-4889-95cc-eece9ac5ffb0, value=[Ljava.lang.CharSequence;@42dda18}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceName]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFtPrinterDetails(SiteConfig.java:393)
+
+addbtnFtPrinter(com.selenium.SiteConfig)  Time elapsed: 0.015 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <button id="btnFastagSaveDevices" class="btn btn-sm btn-primary" type="submit"> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=a98f8e53-8a70-4b76-b764-5a5a3645fadc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: btnFastagSaveDevices]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addbtnFtPrinter(SiteConfig.java:404)
+
+openTreeSixthTime(com.selenium.SiteConfig)  Time elapsed: 12.505 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='site_56']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//*[@id='site_56']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.openTreeSixthTime(SiteConfig.java:438)
+
+addFasTagSelectFtmPOS(com.selenium.SiteConfig)  Time elapsed: 6.025 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <option> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=2468a732-e6fd-45b8-9548-c30d6e426e74}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[[[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceCatagory]] -> xpath: .//option[@value = "FastagMpos"]]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFasTagSelectFtmPOS(SiteConfig.java:459)
+
+addFtmPOSDetails(com.selenium.SiteConfig)  Time elapsed: 1.007 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="fastagDeviceName" class="form-control" name="fastagDeviceName" type="text"> is not reachable by keyboard
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, sendKeysToElement {id=33ccbaac-d89c-4889-95cc-eece9ac5ffb0, value=[Ljava.lang.CharSequence;@7d236b95}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: fastagDeviceName]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addFtmPOSDetails(SiteConfig.java:465)
+
+addbtnFasTagFtmPOS(com.selenium.SiteConfig)  Time elapsed: 3.005 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <button id="btnFastagSaveDevices" class="btn btn-sm btn-primary" type="submit"> could not be scrolled into view
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, clickElement {id=a98f8e53-8a70-4b76-b764-5a5a3645fadc}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on linux (9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0)] -> id: btnFastagSaveDevices]
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.addbtnFasTagFtmPOS(SiteConfig.java:479)
+
+openTreeSeventhTime(com.selenium.SiteConfig)  Time elapsed: 9.046 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='city_5']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//li[@id='city_5']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.openTreeSeventhTime(SiteConfig.java:503)
+
+updateController(com.selenium.SiteConfig)  Time elapsed: 10.058 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: By.id: ftControllerPresentAt (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.updateController(SiteConfig.java:523)
+
+OpenTreeEighthTime(com.selenium.SiteConfig)  Time elapsed: 6.24 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='zone_1']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//li[@id='zone_1']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.OpenTreeEighthTime(SiteConfig.java:542)
+
+OpenTreeNinthTime(com.selenium.SiteConfig)  Time elapsed: 8.016 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //li[@id='city_5']/i
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//li[@id='city_5']/i}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.OpenTreeNinthTime(SiteConfig.java:573)
+
+controllerDetailsView(com.selenium.SiteConfig)  Time elapsed: 2.008 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //a[@id='ftControllerID_2_anchor']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//a[@id='ftControllerID_2_anchor']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.controllerDetailsView(SiteConfig.java:593)
+
+OpenTreeTenthTime(com.selenium.SiteConfig)  Time elapsed: 14.739 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id='site_56']/ul
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0, findElement {using=xpath, value=//*[@id='site_56']/ul}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:2266, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 1217703, moz:profile: /tmp/rust_mozprofileWURFkL, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:2266/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ad7a0bc-b90b-473d-89f5-c72f6ce7faa0
+	at com.selenium.SiteConfig.OpenTreeTenthTime(SiteConfig.java:651)
+

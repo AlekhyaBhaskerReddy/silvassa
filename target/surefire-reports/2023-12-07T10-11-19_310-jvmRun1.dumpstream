@@ -1,0 +1,25 @@
+# Created at 2023-12-07T10:12:34.060
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2023-12-07T10:12:34.079
+Unexpected IOException: 9,1,com.selenium.UnAccountedReports,printStart(com.selenium.UnAccountedReports),null,null,null
+
+
+# Created at 2023-12-07T10:12:34.081
+Unexpected IOException: 5,1,com.selenium.UnAccountedReports,login(com.selenium.UnAccountedReports),com.selenium.UnAccountedReports,null,null
+
+
+# Created at 2023-12-07T10:12:34.081
+Unexpected IOException: 9,1,com.selenium.UnAccountedReports,login(com.selenium.UnAccountedReports),null,Cannot invoke "com.aventstack.extentreports.ExtentReports.attachReporter(com.aventstack.extentreports.observer.ExtentObserver[])" because "com.selenium.UnAccountedReports.extentReports" is null,null
+
+
+# Created at 2023-12-07T10:12:34.083
+Unexpected IOException: 9,1,com.selenium.UnAccountedReports,getResult(com.selenium.UnAccountedReports),null,null,null
+
+

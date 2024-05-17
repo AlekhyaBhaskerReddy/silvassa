@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.ReservationReports
+-------------------------------------------------------------------------------
+Tests run: 42, Failures: 1, Errors: 0, Skipped: 41, Time elapsed: 0.547 s <<< FAILURE! - in com.selenium.ReservationReports
+setUp(com.selenium.ReservationReports)  Time elapsed: 0.335 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	ExtentReports cannot be resolved to a type
+	ExtentSparkReporter cannot be resolved to a type
+
+	at com.selenium.ReservationReports.setUp(ReservationReports.java:26)
+

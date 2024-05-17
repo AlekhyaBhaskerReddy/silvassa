@@ -1,0 +1,425 @@
+<html>
+<head>
+<title>TestNG:  UnAccountedReports</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UnAccountedReports</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>69/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 01 14:43:48 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>163 seconds (163883 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMPOSTicketNo()'><b>validateMPOSTicketNo</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.getUnAccountedTableDataMPOS()'><b>getUnAccountedTableDataMPOS</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateANDROIDVehicleNumber()'><b>validateANDROIDVehicleNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.mobileMPOSDatesEnabled()'><b>mobileMPOSDatesEnabled</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectMobileMOSStartDate()'><b>selectMobileMOSStartDate</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateANDROIDPaymentType()'><b>validateANDROIDPaymentType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMPOSStatus()'><b>validateMPOSStatus</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMPOSAmount()'><b>validateMPOSAmount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectANDROIDStartDate()'><b>selectANDROIDStartDate</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectiOSStartDate()'><b>selectiOSStartDate</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMPOSDisCountedAmount()'><b>validateMPOSDisCountedAmount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.searchVehicleNumber()'><b>searchVehicleNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateANDROIDDisCountedAmount()'><b>validateANDROIDDisCountedAmount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMPOSType()'><b>validateMPOSType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMPOSPaymentType()'><b>validateMPOSPaymentType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.searchANDROIDVehicleNumber()'><b>searchANDROIDVehicleNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.unAccountedTableANDROID()'><b>unAccountedTableANDROID</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectMobileMPOSEndDate()'><b>selectMobileMPOSEndDate</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateANDROIDType()'><b>validateANDROIDType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectDeviceiOS()'><b>selectDeviceiOS</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.mPOSDatesEnabled()'><b>mPOSDatesEnabled</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.unAccountedTableiOS()'><b>unAccountedTableiOS</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectANDROIDEndDate()'><b>selectANDROIDEndDate</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateANDROIDAmount()'><b>validateANDROIDAmount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMPOSMobileNumber()'><b>validateMPOSMobileNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.redirectUnAccountedReportsPage()'><b>redirectUnAccountedReportsPage</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMPOSVehicleType()'><b>validateMPOSVehicleType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateANDROIDTicketNo()'><b>validateANDROIDTicketNo</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateiOSType()'><b>validateiOSType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.revenueDashboardOpen()'><b>revenueDashboardOpen</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.androidDatesEnabled()'><b>androidDatesEnabled</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateiOSAmount()'><b>validateiOSAmount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateiOSTicketNo()'><b>validateiOSTicketNo</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.login()'><b>login</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectiOSListCount()'><b>selectiOSListCount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMmPOSPaymentType()'><b>validateMmPOSPaymentType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateiOSDisCountedAmount()'><b>validateiOSDisCountedAmount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.iOSDatesEnabled()'><b>iOSDatesEnabled</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>1</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateiOSVehicleType()'><b>validateiOSVehicleType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectANDROIDListCount()'><b>selectANDROIDListCount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMmPOSVehicleNumber()'><b>validateMmPOSVehicleNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.logout()'><b>logout</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateiOSVehicleNumber()'><b>validateiOSVehicleNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectMobileMPOSListCount()'><b>selectMobileMPOSListCount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMmPOSStatus()'><b>validateMmPOSStatus</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.searchMPOSVehicleNumber()'><b>searchMPOSVehicleNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.viewUnAccountedSiteList()'><b>viewUnAccountedSiteList</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMmPOSType()'><b>validateMmPOSType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMmPOSVehicleType()'><b>validateMmPOSVehicleType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateANDROIDMobileNumber()'><b>validateANDROIDMobileNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.searchiOSVehicleNumber()'><b>searchiOSVehicleNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectMPOSEndDate()'><b>selectMPOSEndDate</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateANDROIDVehicleType()'><b>validateANDROIDVehicleType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.unAccountedTableMobileMPOS()'><b>unAccountedTableMobileMPOS</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMmPOSTicketNo()'><b>validateMmPOSTicketNo</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectDeviceMobileMPOS()'><b>selectDeviceMobileMPOS</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateiOSStatus()'><b>validateiOSStatus</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMmPOSMobileNumber()'><b>validateMmPOSMobileNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMmPOSDisCountedAmount()'><b>validateMmPOSDisCountedAmount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateiOSMobileNumber()'><b>validateiOSMobileNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateANDROIDStatus()'><b>validateANDROIDStatus</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMPOSVehicleNumber()'><b>validateMPOSVehicleNumber</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectMPOSListCount()'><b>selectMPOSListCount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateiOSPaymentType()'><b>validateiOSPaymentType</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectDevicemPOS()'><b>selectDevicemPOS</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectiOSEndDate()'><b>selectiOSEndDate</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectDeviceAndroid()'><b>selectDeviceAndroid</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.validateMmPOSAmount()'><b>validateMmPOSAmount</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+<tr>
+<td title='com.selenium.UnAccountedReports.selectMPOSStartDate()'><b>selectMPOSStartDate</b><br>Test class: com.selenium.UnAccountedReports</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.UnAccountedReports@52102734</td></tr>
+</table><p>
+</body>
+</html>

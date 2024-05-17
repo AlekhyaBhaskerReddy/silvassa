@@ -1,0 +1,430 @@
+<html>
+<head>
+<title>TestNG:  AudiTrail</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>AudiTrail</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>70/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 24 09:41:29 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>409 seconds (409663 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.AudiTrail.comparePassReserveExpiryDate()'><b>comparePassReserveExpiryDate</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectStartDateActive()'><b>selectStartDateActive</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.typeMaintenance()'><b>typeMaintenance</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountActive50()'><b>selectCountActive50</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectStartDateInActive()'><b>selectStartDateInActive</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.forceExitStatusDatesEnabled()'><b>forceExitStatusDatesEnabled</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectReserveStartDate()'><b>selectReserveStartDate</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectedImage1Details()'><b>selectedImage1Details</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.inActiveStatusDatesEnabled()'><b>inActiveStatusDatesEnabled</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountPasses25()'><b>selectCountPasses25</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.login()'><b>login</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.activePdf()'><b>activePdf</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.activeStatusDatesEnabled()'><b>activeStatusDatesEnabled</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.viewDetails1All()'><b>viewDetails1All</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectStartDateAll()'><b>selectStartDateAll</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.passesPdf()'><b>passesPdf</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.reserveDatesEnabled()'><b>reserveDatesEnabled</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectEndDatePasses()'><b>selectEndDatePasses</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectEndDateActive()'><b>selectEndDateActive</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.statusTypeForceExit()'><b>statusTypeForceExit</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectStartDateForceExit()'><b>selectStartDateForceExit</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.imagePopUpClose()'><b>imagePopUpClose</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectEndDateInActive()'><b>selectEndDateInActive</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.reserveTypePass()'><b>reserveTypePass</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountAllDevice50()'><b>selectCountAllDevice50</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountReservations10()'><b>selectCountReservations10</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.revenueDashboardOpen()'><b>revenueDashboardOpen</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountPasses()'><b>selectCountPasses</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.passesCsv()'><b>passesCsv</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.logout()'><b>logout</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.viewDetails2All()'><b>viewDetails2All</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.reservationTable()'><b>reservationTable</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>24</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountActive10()'><b>selectCountActive10</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectReserveEndDate()'><b>selectReserveEndDate</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>11</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.reservationsPdf()'><b>reservationsPdf</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.getSitesList()'><b>getSitesList</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.compareReserveExpiryTime()'><b>compareReserveExpiryTime</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectStartDateMaintenance()'><b>selectStartDateMaintenance</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountAllDevice10()'><b>selectCountAllDevice10</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.inActivePdf()'><b>inActivePdf</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectEndDateForceExit()'><b>selectEndDateForceExit</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectStartDatePasses()'><b>selectStartDatePasses</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.allPOSDatesEnabled()'><b>allPOSDatesEnabled</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectEndDateMaintenance()'><b>selectEndDateMaintenance</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.maintenanceDatesEnabled()'><b>maintenanceDatesEnabled</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>6</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.allDeviceTable()'><b>allDeviceTable</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>79</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.statusTypeExit()'><b>statusTypeExit</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.forceExitPdf()'><b>forceExitPdf</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.reservationsCsv()'><b>reservationsCsv</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.forceExitCsv()'><b>forceExitCsv</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectEndDateAll()'><b>selectEndDateAll</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.compareEntryExitDateTime()'><b>compareEntryExitDateTime</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.statusTypeEntry()'><b>statusTypeEntry</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.activeCsv()'><b>activeCsv</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.statusTypeALL()'><b>statusTypeALL</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.passesDatesEnabled()'><b>passesDatesEnabled</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>9</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.passesTable()'><b>passesTable</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>55</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.maintenancePdf()'><b>maintenancePdf</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>8</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountReservations25()'><b>selectCountReservations25</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.clickPOSdevice()'><b>clickPOSdevice</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectAttachment()'><b>selectAttachment</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.viewDetailPopUpClose()'><b>viewDetailPopUpClose</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.allPdf()'><b>allPdf</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountAllDevice25()'><b>selectCountAllDevice25</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.redirectAudiTrailPage()'><b>redirectAudiTrailPage</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.inActiveCsv()'><b>inActiveCsv</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.typeReservations()'><b>typeReservations</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.allCsv()'><b>allCsv</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.selectCountActive25()'><b>selectCountActive25</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+<tr>
+<td title='com.selenium.AudiTrail.maintenanceCsv()'><b>maintenanceCsv</b><br>Test class: com.selenium.AudiTrail</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.AudiTrail@e1de817</td></tr>
+</table><p>
+</body>
+</html>

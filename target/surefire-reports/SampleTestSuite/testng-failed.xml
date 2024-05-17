@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="PosHourlyReport(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.PosHourlyReport">
+        <methods>
+          <include name="getResult"/>
+          <include name="validateFourWDateFormat"/>
+          <include name="validateTwoWDateFormat"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.PosHourlyReport -->
+    </classes>
+  </test> <!-- PosHourlyReport(failed) -->
+  <test thread-count="5" name="VehicleBlockList(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.VehicleBlockList">
+        <methods>
+          <include name="vehicleBlockWeekCsv"/>
+          <include name="getResult"/>
+          <include name="vehicleBlockMonthCsv"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.VehicleBlockList -->
+    </classes>
+  </test> <!-- VehicleBlockList(failed) -->
+  <test thread-count="5" name="PayUReports(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.PayUReports">
+        <methods>
+          <include name="validatePayUStatus"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="validatePayUAmount"/>
+        </methods>
+      </class> <!-- com.selenium.PayUReports -->
+    </classes>
+  </test> <!-- PayUReports(failed) -->
+  <test thread-count="5" name="Roles(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.Roles">
+        <methods>
+          <include name="verifyAutoFillForAttenderRole"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="verifyAutoFillForAdminRole"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.selenium.Roles -->
+    </classes>
+  </test> <!-- Roles(failed) -->
+  <test thread-count="5" name="UserSiteAssignment(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.UserSiteAssign">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="selectSite"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.UserSiteAssign -->
+    </classes>
+  </test> <!-- UserSiteAssignment(failed) -->
+</suite> <!-- Failed suite [SampleTestSuite] -->

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.PosHourlyReport
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 132.76 s <<< FAILURE! - in com.selenium.PosHourlyReport
+validateTwoWDateFormat(com.selenium.PosHourlyReport)  Time elapsed: 0.025 s  <<< FAILURE!
+java.text.ParseException: Unparseable date: "2024-03-13"
+	at com.selenium.PosHourlyReport.validateTwoWDateFormat(PosHourlyReport.java:520)
+
+validateFourWDateFormat(com.selenium.PosHourlyReport)  Time elapsed: 0.04 s  <<< FAILURE!
+java.text.ParseException: Unparseable date: "No matching records found"
+	at com.selenium.PosHourlyReport.validateTwoWDateFormat(PosHourlyReport.java:520)
+	at com.selenium.PosHourlyReport.validateFourWDateFormat(PosHourlyReport.java:639)
+

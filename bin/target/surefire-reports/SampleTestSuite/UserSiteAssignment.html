@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  UserSiteAssignment</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>UserSiteAssignment</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 01 15:13:11 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>108 seconds (108627 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.statusOKAttender()'><b>statusOKAttender</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.extractPopupTextAddAttender()'><b>extractPopupTextAddAttender</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.clickAddSitesButton()'><b>clickAddSitesButton</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.clickAssignSiteButton()'><b>clickAssignSiteButton</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.clickAssignAttenderButton()'><b>clickAssignAttenderButton</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.searchAttender()'><b>searchAttender</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.statusOKAssign()'><b>statusOKAssign</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.revenueDashboard()'><b>revenueDashboard</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.statusOKManager()'><b>statusOKManager</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.selectjncManager()'><b>selectjncManager</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.statusOKUnAssignAttender()'><b>statusOKUnAssignAttender</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.clickAddMoreButton()'><b>clickAddMoreButton</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.selectAttenderListItem()'><b>selectAttenderListItem</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.logout()'><b>logout</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.statusOKAddAttender()'><b>statusOKAddAttender</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.attendreCount()'><b>attendreCount</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.selectSiteFromDropdown()'><b>selectSiteFromDropdown</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.verifyTableAfterUnAssign()'><b>verifyTableAfterUnAssign</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.managerCount()'><b>managerCount</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.verifyTableAfterAssign()'><b>verifyTableAfterAssign</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.login()'><b>login</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.extractPopupTextAssign()'><b>extractPopupTextAssign</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.selectSite()'><b>selectSite</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.userMgmtPage()'><b>userMgmtPage</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.confirmManagerUnassignAction()'><b>confirmManagerUnassignAction</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.unassignAttender()'><b>unassignAttender</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.extractPopupWarningTextAttender()'><b>extractPopupWarningTextAttender</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.clickUnAssignButton()'><b>clickUnAssignButton</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.clickAttendersTab()'><b>clickAttendersTab</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.selectManagerFromDropdown()'><b>selectManagerFromDropdown</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.extractPopupTextAttender()'><b>extractPopupTextAttender</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.extractPopupTextManager()'><b>extractPopupTextManager</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+<tr>
+<td title='com.selenium.UserSiteAssign.clickDropdownButton()'><b>clickDropdownButton</b><br>Test class: com.selenium.UserSiteAssign</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.UserSiteAssign@8458f04</td></tr>
+</table><p>
+</body>
+</html>

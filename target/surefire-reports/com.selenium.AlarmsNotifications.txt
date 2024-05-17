@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.AlarmsNotifications
+-------------------------------------------------------------------------------
+Tests run: 49, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 141.521 s - in com.selenium.AlarmsNotifications

@@ -1,0 +1,111 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleTestSuite">
+    <test name="Dashboard">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Dashboard" />
+        </classes>
+    </test>
+    <test name="ReservationReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.ReservationReports" />
+        </classes>
+    </test>
+    <test name="POSReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.POSReports" />
+        </classes>
+    </test>
+    <test name="SiteReports">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.SiteReports" />
+        </classes>
+    </test>
+    <test name="Audit_Reservations">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Audit_Reservations" />
+        </classes>
+    </test>
+    <test name="AudiTrail_PosDevice">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.AudiTrail_PosDevice" />
+        </classes>
+    </test>
+    <test name="LiveInfo">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.LiveInfo" />
+        </classes>
+    </test>
+    <test name="AlarmsNotifications">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.AlarmsNotifications" />
+        </classes>
+    </test>
+    <!-- <test name="SiteConfig">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.SiteConfig" />
+        </classes>
+    </test> -->
+    <test name="PosManagement">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.PosManagement" />
+        </classes>
+    </test>
+    <test name="Roles">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Roles" />
+        </classes>
+    </test>
+    <test name="Users">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Users" />
+        </classes>
+    </test>
+    <test name="UserSiteAssignment">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.UserSiteAssign" />
+        </classes>
+    </test>
+    <test name="UserZoneAssignment">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.UserZoneAssign" />
+        </classes>
+    </test>
+    <test name="UserLogs">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.UserLogs" />
+        </classes>
+    </test>
+    <test name="AttenderLiveSessions">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.AttenderLiveSessions" />
+        </classes>
+    </test>
+    <test name="Feedback">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.Feedback" />
+        </classes>
+    </test>
+    <test name="About">
+        <classes>
+            <class name="com.selenium.BaseTestReport" />
+            <class name="com.selenium.About" />
+        </classes>
+    </test>
+</suite>

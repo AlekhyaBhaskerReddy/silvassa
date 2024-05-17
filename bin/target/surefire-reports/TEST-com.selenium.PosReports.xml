@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.selenium.PosReports" time="459.092" tests="191" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/iramtech/Documents/testNg/parking/extent/target/test-classes:/home/iramtech/Documents/testNg/parking/extent/target/classes:/home/iramtech/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/iramtech/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/iramtech/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/iramtech/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-java/4.10.0/selenium-java-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-api/4.10.0/selenium-api-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.10.0/selenium-chrome-driver-4.10.0.jar:/home/iramtech/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/home/iramtech/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/home/iramtech/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/home/iramtech/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/iramtech/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/iramtech/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/iramtech/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/iramtech/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/home/iramtech/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/home/iramtech/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.10.0/selenium-chromium-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-json/4.10.0/selenium-json-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.10.0/selenium-manager-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.10.0/selenium-devtools-v112-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.10.0/selenium-devtools-v113-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.10.0/selenium-devtools-v114-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.10.0/selenium-devtools-v85-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.10.0/selenium-edge-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.10.0/selenium-firefox-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-http/4.10.0/selenium-http-4.10.0.jar:/home/iramtech/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.10.0/selenium-ie-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.10.0/selenium-remote-driver-4.10.0.jar:/home/iramtech/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/home/iramtech/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/home/iramtech/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/iramtech/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/iramtech/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/iramtech/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/iramtech/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/iramtech/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.10.0/selenium-safari-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-support/4.10.0/selenium-support-4.10.0.jar:/home/iramtech/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/home/iramtech/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/iramtech/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/iramtech/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/home/iramtech/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/iramtech/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/iramtech/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/iramtech/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/iramtech/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/iramtech/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/iramtech/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/iramtech/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/iramtech/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/iramtech/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/iramtech/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/iramtech/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/iramtech/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/iramtech/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-18-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/iramtech/Documents/testNg/parking/extent/target/surefire/surefirebooter13725274952704657629.jar /home/iramtech/Documents/testNg/parking/extent/target/surefire 2024-01-09T10-20-21_151-jvmRun1 surefire13982443375514182239tmp surefire_02358317809165446942tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="PosReports.java"/>
+    <property name="surefire.test.class.path" value="/home/iramtech/Documents/testNg/parking/extent/target/test-classes:/home/iramtech/Documents/testNg/parking/extent/target/classes:/home/iramtech/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/iramtech/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/iramtech/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/iramtech/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-java/4.10.0/selenium-java-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-api/4.10.0/selenium-api-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.10.0/selenium-chrome-driver-4.10.0.jar:/home/iramtech/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/home/iramtech/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/home/iramtech/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/home/iramtech/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/iramtech/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/iramtech/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/iramtech/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/iramtech/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/home/iramtech/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/home/iramtech/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.10.0/selenium-chromium-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-json/4.10.0/selenium-json-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.10.0/selenium-manager-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.10.0/selenium-devtools-v112-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.10.0/selenium-devtools-v113-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v114/4.10.0/selenium-devtools-v114-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.10.0/selenium-devtools-v85-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.10.0/selenium-edge-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.10.0/selenium-firefox-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-http/4.10.0/selenium-http-4.10.0.jar:/home/iramtech/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.10.0/selenium-ie-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.10.0/selenium-remote-driver-4.10.0.jar:/home/iramtech/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-codec-http/4.1.92.Final/netty-codec-http-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-codec/4.1.92.Final/netty-codec-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-handler/4.1.92.Final/netty-handler-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-common/4.1.92.Final/netty-common-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.92.Final/netty-transport-classes-epoll-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.92.Final/netty-transport-classes-kqueue-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-epoll/4.1.92.Final/netty-transport-native-epoll-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.92.Final/netty-transport-native-kqueue-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.92.Final/netty-transport-native-unix-common-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport/4.1.92.Final/netty-transport-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.26.0/opentelemetry-exporter-logging-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.26.0/opentelemetry-sdk-metrics-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.26.0-alpha/opentelemetry-extension-incubator-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.26.0-alpha/opentelemetry-sdk-logs-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.26.0-alpha/opentelemetry-api-logs-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.26.0-alpha/opentelemetry-api-events-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.26.0/opentelemetry-sdk-common-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.26.0/opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.26.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.26.0/opentelemetry-sdk-trace-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.26.0/opentelemetry-sdk-1.26.0.jar:/home/iramtech/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.26.0-alpha/opentelemetry-semconv-1.26.0-alpha.jar:/home/iramtech/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/home/iramtech/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/iramtech/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/home/iramtech/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/home/iramtech/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/home/iramtech/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/home/iramtech/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/home/iramtech/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.10.0/selenium-safari-driver-4.10.0.jar:/home/iramtech/.m2/repository/org/seleniumhq/selenium/selenium-support/4.10.0/selenium-support-4.10.0.jar:/home/iramtech/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/home/iramtech/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/iramtech/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/iramtech/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/home/iramtech/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/iramtech/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/home/iramtech/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/iramtech/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/home/iramtech/.m2/repository/io/rest-assured/rest-assured/4.4.0/rest-assured-4.4.0.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.8/groovy-xml-3.0.8.jar:/home/iramtech/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/home/iramtech/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/iramtech/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/iramtech/.m2/repository/io/rest-assured/json-path/4.4.0/json-path-4.4.0.jar:/home/iramtech/.m2/repository/org/codehaus/groovy/groovy-json/3.0.8/groovy-json-3.0.8.jar:/home/iramtech/.m2/repository/io/rest-assured/rest-assured-common/4.4.0/rest-assured-common-4.4.0.jar:/home/iramtech/.m2/repository/io/rest-assured/xml-path/4.4.0/xml-path-4.4.0.jar:/home/iramtech/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/iramtech/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/home/iramtech/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/iramtech/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/iramtech"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/lib/jvm/java-18-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/iramtech/Documents/testNg/parking/extent"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/iramtech/Documents/testNg/parking/extent/target/surefire/surefirebooter13725274952704657629.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2-ea+9-Ubuntu-222.04"/>
+    <property name="user.name" value="iramtech"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.2.0-39-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/iramtech/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="18.0.2-ea"/>
+    <property name="user.dir" value="/home/iramtech/Documents/testNg/parking/extent"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="18.0.2-ea+9-Ubuntu-222.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="login" classname="com.selenium.PosReports" time="4.846"/>
+  <testcase name="revenueDashboard" classname="com.selenium.PosReports" time="2.216"/>
+  <testcase name="posRevenuepage" classname="com.selenium.PosReports" time="2.389"/>
+  <testcase name="posRevenueSelectSite" classname="com.selenium.PosReports" time="6.595"/>
+  <testcase name="posRevenuedatesEnabled" classname="com.selenium.PosReports" time="9.696"/>
+  <testcase name="selectPosRevenueStartDate" classname="com.selenium.PosReports" time="7.496"/>
+  <testcase name="selectReserveEndDate" classname="com.selenium.PosReports" time="8.201"/>
+  <testcase name="posRevenueSelectTwoWheeler" classname="com.selenium.PosReports" time="2.023"/>
+  <testcase name="posRevenueposNumber" classname="com.selenium.PosReports" time="3.534"/>
+  <testcase name="posRevenueSubmitButtonTwo" classname="com.selenium.PosReports" time="1.245"/>
+  <testcase name="posRevenueFormTwoW" classname="com.selenium.PosReports" time="2.241"/>
+  <testcase name="posRevenueShiftMorningTwoW" classname="com.selenium.PosReports" time="2.288"/>
+  <testcase name="posRevenueShiftEveningTwoW" classname="com.selenium.PosReports" time="2.202"/>
+  <testcase name="posRevenueShiftAllTwoW" classname="com.selenium.PosReports" time="2.054"/>
+  <testcase name="posRevenueCSVTwoW" classname="com.selenium.PosReports" time="2.237"/>
+  <testcase name="posRevenuePopUPCloseTwoW" classname="com.selenium.PosReports" time="2.244"/>
+  <testcase name="posRevenuePDFTwoW" classname="com.selenium.PosReports" time="5.021"/>
+  <testcase name="twoWheelerPOSRevenue" classname="com.selenium.PosReports" time="2.022"/>
+  <testcase name="posRevenueSelectFourWheeler" classname="com.selenium.PosReports" time="2.041"/>
+  <testcase name="posRevenueSubmitBtnFourW" classname="com.selenium.PosReports" time="1.233"/>
+  <testcase name="posRevenueFormFourW" classname="com.selenium.PosReports" time="2.224"/>
+  <testcase name="posRevenueShiftMorningFourW" classname="com.selenium.PosReports" time="2.557"/>
+  <testcase name="posRevenueShiftEveningFouW" classname="com.selenium.PosReports" time="2.328"/>
+  <testcase name="posRevenueShiftAllFourW" classname="com.selenium.PosReports" time="2.071"/>
+  <testcase name="posRevenueCSVFourW" classname="com.selenium.PosReports" time="2.272"/>
+  <testcase name="posRevenuePDFFourW" classname="com.selenium.PosReports" time="15.364"/>
+  <testcase name="posRevenuePopUPCloseFourW" classname="com.selenium.PosReports" time="2.217"/>
+  <testcase name="fourWheelerPOSRevenue" classname="com.selenium.PosReports" time="2.012"/>
+  <testcase name="posRevenueSelectThreeWheeler" classname="com.selenium.PosReports" time="2.024"/>
+  <testcase name="posRevenueSubmitBtnThreeW" classname="com.selenium.PosReports" time="1.218"/>
+  <testcase name="posRevenueFormThreeW" classname="com.selenium.PosReports" time="2.249"/>
+  <testcase name="posRevenueShiftMorningThreeW" classname="com.selenium.PosReports" time="2.775"/>
+  <testcase name="posRevenueShiftEveningThreeW" classname="com.selenium.PosReports" time="2.485"/>
+  <testcase name="posRevenueShiftAllThreeW" classname="com.selenium.PosReports" time="2.065"/>
+  <testcase name="posRevenueCSVThreeW" classname="com.selenium.PosReports" time="2.256"/>
+  <testcase name="posRevenuePDFThreeW" classname="com.selenium.PosReports" time="15.336"/>
+  <testcase name="posRevenuePopUPCloseThreeW" classname="com.selenium.PosReports" time="2.242"/>
+  <testcase name="threeWheelerPOSRevenue" classname="com.selenium.PosReports" time="2.042"/>
+  <testcase name="posRevenueSelectSixWheeler" classname="com.selenium.PosReports" time="2.018"/>
+  <testcase name="posRevenueSubmitBtnSixW" classname="com.selenium.PosReports" time="1.221"/>
+  <testcase name="posRevenueFormSixW" classname="com.selenium.PosReports" time="2.236"/>
+  <testcase name="posRevenueShiftMorningSixW" classname="com.selenium.PosReports" time="3.007"/>
+  <testcase name="posRevenueShiftEveningSixW" classname="com.selenium.PosReports" time="2.577"/>
+  <testcase name="posRevenueShiftAllSixW" classname="com.selenium.PosReports" time="2.087"/>
+  <testcase name="posRevenueCSVSixW" classname="com.selenium.PosReports" time="2.236"/>
+  <testcase name="posRevenuePDFSixW" classname="com.selenium.PosReports" time="15.389"/>
+  <testcase name="posRevenuePopUPCloseSixW" classname="com.selenium.PosReports" time="2.246"/>
+  <testcase name="sixWheelerPOSRevenue" classname="com.selenium.PosReports" time="2.035"/>
+  <testcase name="posRevenueSelectEightWheeler" classname="com.selenium.PosReports" time="2.013"/>
+  <testcase name="posRevenueSubmitBtnEightW" classname="com.selenium.PosReports" time="1.217"/>
+  <testcase name="posRevenueFormEightW" classname="com.selenium.PosReports" time="2.232"/>
+  <testcase name="posRevenueShiftMorningEightW" classname="com.selenium.PosReports" time="3.248"/>
+  <testcase name="posRevenueShiftEveningEightW" classname="com.selenium.PosReports" time="2.721"/>
+  <testcase name="posRevenueShiftAllEightW" classname="com.selenium.PosReports" time="2.048"/>
+  <testcase name="posRevenueCSVEightW" classname="com.selenium.PosReports" time="2.224"/>
+  <testcase name="posRevenuePDFEightW" classname="com.selenium.PosReports" time="15.346"/>
+  <testcase name="posRevenuePopUPCloseEightW" classname="com.selenium.PosReports" time="2.257"/>
+  <testcase name="eightWheelerPOSRevenue" classname="com.selenium.PosReports" time="2.018"/>
+  <testcase name="posRevenueSelectTenWheeler" classname="com.selenium.PosReports" time="2.042"/>
+  <testcase name="posRevenueSubmitBtnTenW" classname="com.selenium.PosReports" time="1.238"/>
+  <testcase name="posRevenueFormTenW" classname="com.selenium.PosReports" time="2.235"/>
+  <testcase name="posRevenueShiftMorningTenW" classname="com.selenium.PosReports" time="3.499"/>
+  <testcase name="posRevenueShiftEveningTenW" classname="com.selenium.PosReports" time="2.873"/>
+  <testcase name="posRevenueShiftAllTenW" classname="com.selenium.PosReports" time="2.052"/>
+  <testcase name="posRevenueCSVTenW" classname="com.selenium.PosReports" time="2.253"/>
+  <testcase name="posRevenuePDFTenW" classname="com.selenium.PosReports" time="2.23"/>
+  <testcase name="posRevenuePopUPCloseTenW" classname="com.selenium.PosReports" time="2.242"/>
+  <testcase name="tenWheelerPOSRevenue" classname="com.selenium.PosReports" time="2.019"/>
+  <testcase name="posRevenueSelectTwelveWheeler" classname="com.selenium.PosReports" time="2.04"/>
+  <testcase name="posRevenueSubmitBtnTwelveW" classname="com.selenium.PosReports" time="1.217"/>
+  <testcase name="posRevenueFormTwelveW" classname="com.selenium.PosReports" time="2.241"/>
+  <testcase name="posRevenueShiftMorningTwelveW" classname="com.selenium.PosReports" time="3.733"/>
+  <testcase name="posRevenueShiftEveningTwelveW" classname="com.selenium.PosReports" time="3.041"/>
+  <testcase name="posRevenueShiftAllTwelveW" classname="com.selenium.PosReports" time="2.06"/>
+  <testcase name="posRevenueCSVTwelveW" classname="com.selenium.PosReports" time="2.231"/>
+  <testcase name="posRevenuePDFTwelveW" classname="com.selenium.PosReports" time="15.343"/>
+  <testcase name="posRevenuePopUPCloseTwelveW" classname="com.selenium.PosReports" time="2.215"/>
+  <testcase name="twelveWheelerPOSRevenue" classname="com.selenium.PosReports" time="2.038"/>
+  <testcase name="selectIOS" classname="com.selenium.PosReports" time="2.23"/>
+  <testcase name="posRevenueSubmitBtnIOS" classname="com.selenium.PosReports" time="1.247"/>
+  <testcase name="posRevenueFormIOS" classname="com.selenium.PosReports" time="2.235"/>
+  <testcase name="posRevenueShiftMorningIOS" classname="com.selenium.PosReports" time="3.961"/>
+  <testcase name="posRevenueShiftEveningIOS" classname="com.selenium.PosReports" time="3.107"/>
+  <testcase name="posRevenueShiftAllIOS" classname="com.selenium.PosReports" time="2.067"/>
+  <testcase name="posRevenueCSVIOS" classname="com.selenium.PosReports" time="2.241"/>
+  <testcase name="posRevenuePDFIOS" classname="com.selenium.PosReports" time="2.23"/>
+  <testcase name="posRevenuePopUPCloseIOS" classname="com.selenium.PosReports" time="2.242"/>
+  <testcase name="iOSPOSRevenue" classname="com.selenium.PosReports" time="2.033"/>
+  <testcase name="selectAndroid" classname="com.selenium.PosReports" time="2.217"/>
+  <testcase name="posRevenueSubmitBtnAndroid" classname="com.selenium.PosReports" time="1.252"/>
+  <testcase name="posRevenueFormAndroid" classname="com.selenium.PosReports" time="2.244"/>
+  <testcase name="posRevenueShiftMorningAndroid" classname="com.selenium.PosReports" time="4.222"/>
+  <testcase name="posRevenueShiftEveningAndroid" classname="com.selenium.PosReports" time="3.291"/>
+  <testcase name="posRevenueShiftAllAndroid" classname="com.selenium.PosReports" time="2.075"/>
+  <testcase name="posRevenueCSVAndroid" classname="com.selenium.PosReports" time="2.23"/>
+  <testcase name="posRevenuePDFAndroid" classname="com.selenium.PosReports" time="2.262"/>
+  <testcase name="posRevenuePopUPCloseAndroid" classname="com.selenium.PosReports" time="2.219"/>
+  <testcase name="androidPOSRevenue" classname="com.selenium.PosReports" time="2.019"/>
+  <testcase name="selectFasTag" classname="com.selenium.PosReports" time="0.217"/>
+  <testcase name="posRevenueSubmitBtnFastag" classname="com.selenium.PosReports" time="0.016"/>
+  <testcase name="posRevenueFormFastTag" classname="com.selenium.PosReports" time="0.011"/>
+  <testcase name="posRevenueShiftMorningFasTag" classname="com.selenium.PosReports" time="0.006"/>
+  <testcase name="posRevenueShiftEveningFasTag" classname="com.selenium.PosReports" time="0.007"/>
+  <testcase name="posRevenueShiftAllFasTag" classname="com.selenium.PosReports" time="0.006"/>
+  <testcase name="posRevenueCSVFasTag" classname="com.selenium.PosReports" time="2.028"/>
+  <testcase name="posRevenuePDFFasTag" classname="com.selenium.PosReports" time="2.019"/>
+  <testcase name="posRevenuePopUPCloseFasTag" classname="com.selenium.PosReports" time="2.018"/>
+  <testcase name="fasTagPOSRevenue" classname="com.selenium.PosReports" time="2.013"/>
+  <testcase name="posTransactions" classname="com.selenium.PosReports" time="2.021"/>
+  <testcase name="posTransactionsDateRange" classname="com.selenium.PosReports" time="1.018"/>
+  <testcase name="posTransTypeTwoEntry" classname="com.selenium.PosReports" time="3.016"/>
+  <testcase name="posVehicleTypeTwoWheeler" classname="com.selenium.PosReports" time="0.06"/>
+  <testcase name="posTransactionSubmitButton" classname="com.selenium.PosReports" time="0.007"/>
+  <testcase name="posTransactionForm" classname="com.selenium.PosReports" time="0.006"/>
+  <testcase name="posTransactionCSVTwoEntry" classname="com.selenium.PosReports" time="3.022"/>
+  <testcase name="posTransactionsPDFTwoEntry" classname="com.selenium.PosReports" time="2.01"/>
+  <testcase name="posTransPopUPCloseTwoEntry" classname="com.selenium.PosReports" time="2.025"/>
+  <testcase name="EntryPosTransTwoWheeler" classname="com.selenium.PosReports" time="2.014"/>
+  <testcase name="posTransTypeTwoExit" classname="com.selenium.PosReports" time="2.013"/>
+  <testcase name="posTransactionSubmitBtnTwoExit" classname="com.selenium.PosReports" time="0.006"/>
+  <testcase name="posTransactionsFormTwoExit" classname="com.selenium.PosReports" time="0.006"/>
+  <testcase name="posTransactionCSVTwoExit" classname="com.selenium.PosReports" time="3.016"/>
+  <testcase name="posTransactionPDFTwoExit" classname="com.selenium.PosReports" time="2.01"/>
+  <testcase name="posTransPopUPCloseTwoExit" classname="com.selenium.PosReports" time="2.019"/>
+  <testcase name="ExitPosTransTwoWheeler" classname="com.selenium.PosReports" time="2.011"/>
+  <testcase name="posTransTypeFourWheelerEntry" classname="com.selenium.PosReports" time="2.009"/>
+  <testcase name="posVehicleTypeFourWheeler" classname="com.selenium.PosReports" time="2.034"/>
+  <testcase name="posTransactionSubmitBtnFourEntry" classname="com.selenium.PosReports" time="0.006"/>
+  <testcase name="posTransactionFormFourEntry" classname="com.selenium.PosReports" time="0.008"/>
+  <testcase name="posTransactionCSVFourEntry" classname="com.selenium.PosReports" time="3.037"/>
+  <testcase name="posTransactionsPDFFourEntry" classname="com.selenium.PosReports" time="2.008"/>
+  <testcase name="posTransPopUPCloseFourEntry" classname="com.selenium.PosReports" time="2.018"/>
+  <testcase name="EntryPosTransFourWheeler" classname="com.selenium.PosReports" time="2.011"/>
+  <testcase name="posTransTypeFourExit" classname="com.selenium.PosReports" time="2.016"/>
+  <testcase name="posTransactionSubmitBtnFourExit" classname="com.selenium.PosReports" time="0.025"/>
+  <testcase name="posTransactionsFormFourExit" classname="com.selenium.PosReports" time="0.01"/>
+  <testcase name="posTransactionCSVFourExit" classname="com.selenium.PosReports" time="3.038"/>
+  <testcase name="posTransactionPDFFourExit" classname="com.selenium.PosReports" time="2.008"/>
+  <testcase name="posTransPopUPCloseFourExit" classname="com.selenium.PosReports" time="2.018"/>
+  <testcase name="posTransFourExit" classname="com.selenium.PosReports" time="2.017"/>
+  <testcase name="selectTransIOS" classname="com.selenium.PosReports" time="2.236"/>
+  <testcase name="posTransSubmitBtnIOS" classname="com.selenium.PosReports" time="0.017"/>
+  <testcase name="posTransFormIOS" classname="com.selenium.PosReports" time="0.017"/>
+  <testcase name="posRTransCSViOS" classname="com.selenium.PosReports" time="3.019"/>
+  <testcase name="posTransPDFiOS" classname="com.selenium.PosReports" time="2.009"/>
+  <testcase name="posTransPopUPCloseiOS" classname="com.selenium.PosReports" time="2.018"/>
+  <testcase name="iOSPosTransaction" classname="com.selenium.PosReports" time="2.007"/>
+  <testcase name="selectTransAndroid" classname="com.selenium.PosReports" time="2.225"/>
+  <testcase name="posTransSubmitBtnAndroid" classname="com.selenium.PosReports" time="0.017"/>
+  <testcase name="posTransFormAndroid" classname="com.selenium.PosReports" time="0.018"/>
+  <testcase name="posTransCSVAndroid" classname="com.selenium.PosReports" time="3.037"/>
+  <testcase name="posTransPDFAndroid" classname="com.selenium.PosReports" time="2.004"/>
+  <testcase name="posTransPopUPCloseSAndroid" classname="com.selenium.PosReports" time="2.018"/>
+  <testcase name="androidPosTransaction" classname="com.selenium.PosReports" time="2.033"/>
+  <testcase name="selectFastag" classname="com.selenium.PosReports" time="2.233"/>
+  <testcase name="posTransSubmitBtnFasTag" classname="com.selenium.PosReports" time="0.019"/>
+  <testcase name="posTransFormFasTag" classname="com.selenium.PosReports" time="0.019"/>
+  <testcase name="posRTransCSVFasTag" classname="com.selenium.PosReports" time="3.017"/>
+  <testcase name="posTransPDFFasTag" classname="com.selenium.PosReports" time="2.008"/>
+  <testcase name="posTransPopUPCloseFasTag" classname="com.selenium.PosReports" time="2.02"/>
+  <testcase name="fasTagPosTransaction" classname="com.selenium.PosReports" time="2.014"/>
+  <testcase name="posAttender" classname="com.selenium.PosReports" time="2.221"/>
+  <testcase name="posAttenderDay" classname="com.selenium.PosReports" time="0.01"/>
+  <testcase name="attenderUsageDay" classname="com.selenium.PosReports" time="2.015"/>
+  <testcase name="posAttenderWeek" classname="com.selenium.PosReports" time="0.006"/>
+  <testcase name="attenderUsageWeek" classname="com.selenium.PosReports" time="2.015"/>
+  <testcase name="posAttenderMonth" classname="com.selenium.PosReports" time="0.006"/>
+  <testcase name="attenderUsageMonth" classname="com.selenium.PosReports" time="2.012"/>
+  <testcase name="posAttenderForm" classname="com.selenium.PosReports" time="2.217"/>
+  <testcase name="posAttenderCsv" classname="com.selenium.PosReports" time="2.264"/>
+  <testcase name="posAttenderPdf" classname="com.selenium.PosReports" time="2.907"/>
+  <testcase name="posAttenderPopUPClose" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="selectAttenderIOS" classname="com.selenium.PosReports" time="2.004"/>
+  <testcase name="posAttenderFormSecond" classname="com.selenium.PosReports" time="0.004"/>
+  <testcase name="posAttenderCsvSecond" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="posAttenderPdfSecond" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="posAttenderPopUPCloseSecond" classname="com.selenium.PosReports" time="2.004"/>
+  <testcase name="iOSPosAttender" classname="com.selenium.PosReports" time="2.002"/>
+  <testcase name="selectAttenderAndroid" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="posAttenderFormThird" classname="com.selenium.PosReports" time="0.006"/>
+  <testcase name="posAttenderCsvThird" classname="com.selenium.PosReports" time="2.004"/>
+  <testcase name="posAttenderPdfThird" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="posAttenderPopUPCloseThird" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="androidPosAttender" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="selectFastagattender" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="posAttenderFormFourth" classname="com.selenium.PosReports" time="0.002"/>
+  <testcase name="posAttenderCsvForth" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="posAttenderPdfForth" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="posAttenderPopUPCloseForth" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="fasTagPosAttender" classname="com.selenium.PosReports" time="2.005"/>
+  <testcase name="tearDown" classname="com.selenium.PosReports" time="2.303">
+    <failure message="Tried to run command without establishing a connection&#10;Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2.0-39-generic&apos;, java.version: &apos;18.0.2-ea&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [cae2aaee-23d0-4075-aa27-d4ea05f5b299, quit {}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:14945, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 23736, moz:profile: /tmp/rust_mozprofile40PAzY, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:14945/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: cae2aaee-23d0-4075-aa27-d4ea05f5b299" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Tried to run command without establishing a connection
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '18.0.2-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cae2aaee-23d0-4075-aa27-d4ea05f5b299, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231220184444, moz:debuggerAddress: 127.0.0.1:14945, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 6.2.0-39-generic, moz:processID: 23736, moz:profile: /tmp/rust_mozprofile40PAzY, moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://127.0.0.1:14945/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cae2aaee-23d0-4075-aa27-d4ea05f5b299
+</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,280 @@
+<html>
+<head>
+<title>TestNG:  Roles</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Roles</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 01 15:09:53 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>95 seconds (95104 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.Roles.verifyAutoFillForAttenderRole()'><b>verifyAutoFillForAttenderRole</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.updateUser()'><b>updateUser</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.clickSaveButtonTwice()'><b>clickSaveButtonTwice</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.selectAdminRole()'><b>selectAdminRole</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.clickPDFButton()'><b>clickPDFButton</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.checkAttenderUpdateButton()'><b>checkAttenderUpdateButton</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.clickSaveButton()'><b>clickSaveButton</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.userMgmtPage()'><b>userMgmtPage</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.extractPopupTextTwice()'><b>extractPopupTextTwice</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.searchUserRole()'><b>searchUserRole</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.verifyAutoFillForAdminRole()'><b>verifyAutoFillForAdminRole</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.performManagerRoleDelete()'><b>performManagerRoleDelete</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.revenueDashboard()'><b>revenueDashboard</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.clickAddRoleBtn()'><b>clickAddRoleBtn</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.confirmDeleteAction()'><b>confirmDeleteAction</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.tableNextPage()'><b>tableNextPage</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.performAttenderRoleDelete()'><b>performAttenderRoleDelete</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.confirmAttenderDeleteAction()'><b>confirmAttenderDeleteAction</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.selectAccessTypeAttenderRead()'><b>selectAccessTypeAttenderRead</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.updateStatusOK()'><b>updateStatusOK</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.clickCSVButton()'><b>clickCSVButton</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.verifyAdminActions()'><b>verifyAdminActions</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.logout()'><b>logout</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.performManagerRoleEdit()'><b>performManagerRoleEdit</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.verifyAttenderRoleDeletion()'><b>verifyAttenderRoleDeletion</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.statusOK()'><b>statusOK</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.clickAddRoleBtnTwice()'><b>clickAddRoleBtnTwice</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>5</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.updateUserTwice()'><b>updateUserTwice</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.addRolesPopUpClose()'><b>addRolesPopUpClose</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.getEditRoleDetails()'><b>getEditRoleDetails</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.verifyManagerRoleDeletion()'><b>verifyManagerRoleDeletion</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.updateStatusOKTwice()'><b>updateStatusOKTwice</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.login()'><b>login</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>7</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.extractPopupText()'><b>extractPopupText</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.selectAccessTypeRead()'><b>selectAccessTypeRead</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.performAttenderRoleEdit()'><b>performAttenderRoleEdit</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>4</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.getEditAttenderRoleDetails()'><b>getEditAttenderRoleDetails</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.checkUpdateButton()'><b>checkUpdateButton</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.addRolesPopUpCloseTwice()'><b>addRolesPopUpCloseTwice</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+<tr>
+<td title='com.selenium.Roles.statusOKTwice()'><b>statusOKTwice</b><br>Test class: com.selenium.Roles</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.Roles@563f38c4</td></tr>
+</table><p>
+</body>
+</html>

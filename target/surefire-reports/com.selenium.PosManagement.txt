@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.PosManagement
+-------------------------------------------------------------------------------
+Tests run: 103, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 345.509 s - in com.selenium.PosManagement

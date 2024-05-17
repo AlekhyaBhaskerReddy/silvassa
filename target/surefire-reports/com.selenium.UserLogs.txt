@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.UserLogs
+-------------------------------------------------------------------------------
+Tests run: 46, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 176.314 s - in com.selenium.UserLogs

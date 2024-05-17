@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.About
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.411 s <<< FAILURE! - in com.selenium.About
+application_Details(com.selenium.About)  Time elapsed: 3.094 s  <<< FAILURE!
+java.lang.AssertionError: About page Info not found
+	at com.selenium.About.application_Details(About.java:90)
+
