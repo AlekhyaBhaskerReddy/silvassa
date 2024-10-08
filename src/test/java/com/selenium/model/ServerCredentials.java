@@ -52,9 +52,10 @@ public class ServerCredentials {
     }
 
     public static WebDriver setBrowserDriver(String driverName) {
-        if (driverName.equalsIgnoreCase("chrome")) {
-            return new ChromeDriver();
-        }
+       if (driverName.equalsIgnoreCase("firefox")) {
+        System.setProperty("webdriver.gecko.driver", "/home/iramtech/iRam_Folder/web_driver/fire_fox/geckodriver");
+        return new FirefoxDriver();
+    }
         return new FirefoxDriver();
     }
     // public static WebDriver setBrowserDriver(String driverName) {
