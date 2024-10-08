@@ -13,9 +13,10 @@ pipeline {
             }
         }
         stage('Run Selenium Tests') {
-            steps {
-                sh 'mvn test' // Run the entire Selenium test suite
-            }
+    steps {
+        sh 'mvn test -Dbrowser=firefox' // pass the browser argument if needed
+    }
+}
         }
     }
 
